@@ -1,0 +1,22 @@
+[
+ {
+  "label": "start",
+  "text": "1. What React Is\nUp\nDown\n2. Props\nUp\nDown\n3. useState\nUp\nDown\n4. useEffect\nUp\nDown\n5. Context\nUp\nDown\nReset order\nOrder: What React Is, Props, useState, useEffect, Context"
+ },
+ {
+  "label": "after Move Props up",
+  "text": "1. Props\nUp\nDown\n2. What React Is\nUp\nDown\n3. useState\nUp\nDown\n4. useEffect\nUp\nDown\n5. Context\nUp\nDown\nReset order\nMoved Props to position 1 of 5\nOrder: Props, What React Is, useState, useEffect, Context"
+ },
+ {
+  "label": "Enter pressed 4 times on Move Context up",
+  "text": "1. Context\nUp\nDown\n2. Props\nUp\nDown\n3. What React Is\nUp\nDown\n4. useState\nUp\nDown\n5. useEffect\nUp\nDown\nReset order\nMoved Context to position 1 of 5\nOrder: Context, Props, What React Is, useState, useEffect\nfocused: Move Context down"
+ },
+ {
+  "label": "buttons that are disabled",
+  "text": "Move Context up\nMove useEffect down"
+ },
+ {
+  "label": "after Reset order",
+  "text": "1. What React Is\nUp\nDown\n2. Props\nUp\nDown\n3. useState\nUp\nDown\n4. useEffect\nUp\nDown\n5. Context\nUp\nDown\nReset order\nOrder reset\nOrder: What React Is, Props, useState, useEffect, Context"
+ }
+]

@@ -1,0 +1,18 @@
+:root { --bg: #f3f5f9; --card: #ffffff; --text: #14213d; --muted: #55627d; --line: #d5dbe8; --blue: #1a7cff; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); color: var(--text); }
+main { padding: 16px 26px; }
+h1 { font-size: 34px; margin: 0 0 10px; color: var(--blue); }
+ul { list-style: none; margin: 0; padding: 0; }
+.bar { display: inline-block; font-size: 20px; font-weight: 700; padding: 4px 14px; border-radius: 999px; margin-bottom: 12px; background: #dff5e8; color: #14693a; }
+.bar.off { background: #ffe9c2; color: #8a4b00; }
+.card { display: flex; align-items: center; justify-content: space-between; gap: 12px; font-size: 24px; font-weight: 700; padding: 10px 16px; margin-bottom: 10px; border: 2px solid var(--line); border-radius: 12px; background: var(--card); }
+.card small { display: block; font-size: 18px; font-weight: 500; color: var(--muted); }
+button { font: inherit; font-size: 20px; font-weight: 700; padding: 6px 16px; border-radius: 10px; border: 2px solid var(--blue); background: var(--blue); color: #fff; cursor: pointer; }
+button.ghost { background: #fff; color: var(--blue); }
+.row { display: flex; gap: 12px; margin-bottom: 12px; }
+.lane { position: relative; height: 70px; border: 2px dashed var(--line); border-radius: 12px; margin-bottom: 10px; background: #fff; }
+.box { position: absolute; top: 10px; left: 0; width: 80px; height: 46px; border-radius: 10px; background: var(--blue); }
+.lbl { font-size: 20px; font-weight: 700; margin: 6px 0; }
+.junk { display: none; }
+.junkwrap { height: 0; overflow: visible; }

@@ -1,0 +1,28 @@
+body { margin: 0; font: 18px/1.35 system-ui, sans-serif; color: #1c2430; background: #f3f5f9; }
+a { color: #1a5fd0; text-decoration: none; font-weight: 600; }
+.top { display: flex; justify-content: space-between; align-items: center; padding: 8px 22px; background: #fff; border-bottom: 1px solid #d9deea; font-size: 18px; }
+.top nav { display: flex; align-items: center; gap: 16px; }
+.top .who { color: #5b6678; }
+main { padding: 8px 22px; }
+h1 { margin: 0 0 12px; font-size: 30px; }
+.grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.card { background: #fff; border: 1px solid #d9deea; border-radius: 12px; padding: 12px 16px; }
+.card h2 { margin: 0 0 4px; font-size: 22px; }
+.card p, .meta { margin: 2px 0; font-size: 18px; color: #4a5568; }
+button { font: 600 17px system-ui, sans-serif; padding: 6px 14px; border-radius: 8px; border: 1px solid #1a7cff; background: #1a7cff; color: #fff; cursor: pointer; }
+button.ghost { background: #fff; color: #1a5fd0; }
+button:disabled { opacity: .5; cursor: default; }
+.note { margin: 0; padding: 24px 4px; font-size: 22px; }
+.bad { margin: 6px 0; padding: 8px 14px; border: 2px solid #e0a5a0; border-radius: 12px; background: #fdecea; color: #b3261e; font-size: 20px; }
+.panel { display: flex; flex-direction: column; gap: 4px; max-width: 400px; margin: 0 auto; background: #fff; border: 1px solid #d9deea; border-radius: 12px; padding: 8px 22px 10px; }
+.panel h1 { margin: 0 0 2px; font-size: 26px; }
+.panel label { display: flex; flex-direction: column; gap: 1px; font-size: 16px; font-weight: 600; }
+.panel input { font: 17px system-ui, sans-serif; padding: 2px 9px; border: 1px solid #b9c2d6; border-radius: 8px; }
+.fieldbad { color: #b3261e; font-size: 15px; font-weight: 600; line-height: 1.1; }
+.fieldbad:empty { display: none; }
+.panel .bad { margin: 0; padding: 4px 12px; font-size: 17px; }
+.users { width: 100%; border-collapse: collapse; background: #fff; border: 1px solid #d9deea; font-size: 19px; }
+.users td, .users th { text-align: left; padding: 8px 12px; border-bottom: 1px solid #e3e7f0; }
+.users select { font: 17px system-ui, sans-serif; padding: 3px 6px; }
+.row { display: flex; gap: 10px; margin: 10px 0 14px; }
+.row input { flex: 1; font: 18px system-ui, sans-serif; padding: 6px 10px; border: 1px solid #b9c2d6; border-radius: 8px; }

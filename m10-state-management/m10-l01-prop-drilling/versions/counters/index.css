@@ -1,0 +1,26 @@
+body { margin: 0; font: 19px/1.35 system-ui, sans-serif; }
+.app { min-height: 100vh; background: #f3f5f9; color: #1c2430; }
+.app.dark { background: #10141c; color: #e8edf5; }
+main { padding: 0 20px 16px; min-height: 100vh; box-sizing: border-box; display: flex; flex-direction: column; }
+header { display: flex; align-items: center; gap: 16px; padding: 16px 0; border-bottom: 1px solid #d3d9e6; }
+.dark header { border-color: #2b3445; }
+.logo { display: flex; align-items: center; gap: 8px; font-weight: 800; font-size: 21px; margin-right: auto; }
+.menu { display: flex; align-items: center; gap: 8px; font-weight: 600; }
+.avatar { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; background: #1a56db; color: #fff; border: 2px solid #9fb8f5; }
+.avatar.pro { border-color: #f5b63d; }
+.dark .avatar { background: #8ab4ff; color: #10141c; }
+.switch { font: inherit; font-size: 17px; font-weight: 700; padding: 5px 12px; border-radius: 9px; border: 1.5px solid #9aa6bd; background: transparent; color: inherit; cursor: pointer; }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 22px; }
+.card { background: #fff; border: 1px solid #d3d9e6; border-radius: 12px; padding: 18px 16px 20px; position: relative; }
+.dark .card { background: #1a2130; border-color: #2b3445; }
+.card h2 { margin: 0 0 8px; font-size: 22px; line-height: 1.2; min-height: 54px; }
+.card p { margin: 0 0 18px; font-size: 18px; opacity: .8; }
+.enroll { display: flex; align-items: center; gap: 7px; font: inherit; font-size: 16px; font-weight: 700; padding: 8px 12px; border-radius: 9px; border: 1.5px solid #9fb8f5; background: transparent; color: inherit; cursor: pointer; }
+footer { margin-top: auto; padding-top: 16px; font-size: 16px; opacity: .65; }
+.rc { display: none; font-style: normal; font-family: ui-monospace, monospace; }
+.rc.on { display: inline-block; margin-left: 8px; padding: 0 8px; border-radius: 8px; background: #ffb800; color: #111; font-size: 16px; font-weight: 800; }
+.enroll { white-space: nowrap; }
+.enroll .rc.on { position: absolute; top: 82px; right: 14px; margin: 0; }
+footer { opacity: 1; color: #6a7385; }
+.dark footer { color: #a2abbd; }
+footer .rc.on { margin-left: 12px; }

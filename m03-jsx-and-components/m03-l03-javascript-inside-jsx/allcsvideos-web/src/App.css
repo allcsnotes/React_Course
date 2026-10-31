@@ -1,0 +1,13 @@
+body { margin: 0; font-family: system-ui, sans-serif; background: #f3f5f9; color: #14213d; }
+body::before { content: 'allcsvideos'; display: block; height: 52px; line-height: 52px; background: #14213d; color: #fff; padding: 0 24px; font-size: 26px; font-weight: 800; }
+#root { padding: 18px 24px; }
+.card { background: #fff; border-radius: 14px; padding: 16px 24px; box-shadow: 0 2px 10px rgba(20, 33, 61, .12); display: flex; flex-direction: column; align-items: flex-start; }
+.card h2 { margin: 0 0 6px; font-size: 38px; line-height: 1.2; }
+.card p { margin: 4px 0; font-size: 28px; color: #4a5568; line-height: 1.25; }
+.card .price { margin-top: 8px; font-size: 32px; font-weight: 700; color: #1a7cff; }
+.card img { width: 110px; height: 110px; border-radius: 14px; margin-bottom: 8px; }
+.tag { display: inline-block; font-size: 24px; font-weight: 700; padding: 3px 16px; border-radius: 999px; background: #e7ebf3; color: #4a5568; }
+.tag.free { background: #d8f5e4; color: #1d7a46; }
+ul { margin: 6px 0 0; padding-left: 36px; font-size: 32px; line-height: 1.35; }
+.demo p { margin: 0; font-size: 28px; line-height: 1.32; color: #14213d; }
+.demo b { color: #1a7cff; }

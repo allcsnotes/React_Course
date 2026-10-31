@@ -1,0 +1,16 @@
+body { margin: 0; font-family: system-ui, sans-serif; background: #f3f5f9; color: #14213d; font-size: 24px; }
+.page { min-height: 100vh; box-sizing: border-box; align-content: center; padding: 20px 24px; display: grid; grid-template-columns: 1fr 1fr; gap: 14px; align-items: start; }
+.card, .panel { background: #fff; border: 2px solid #1a7cff; border-radius: 14px; overflow: hidden; }
+.card h2, .panel h2 { margin: 0; padding: 6px 16px; background: #1a7cff; color: #fff; font-size: 28px; }
+.card p, .panel p { margin: 0; padding: 2px 0; }
+.card > p { padding: 8px 16px; }
+.body { padding: 6px 16px; min-height: 32px; color: #4a5568; font-size: 24px; }
+.badge { display: inline-block; margin: 6px 8px 6px 0; padding: 2px 12px; border-radius: 999px; background: #d9ecff; color: #0b57c4; font-weight: 700; font-size: 22px; }
+button { margin: 6px 0; padding: 6px 18px; border: 0; border-radius: 10px; background: #1a7cff; color: #fff; font-size: 22px; font-weight: 700; }
+.foot { padding: 0 16px; border-top: 2px solid #dbe6f5; background: #f3f8ff; }
+.layout { min-height: 100vh; display: flex; flex-direction: column; }
+.layout main { flex: 1; }
+.layout header { background: #14213d; color: #fff; padding: 8px 24px; font-size: 28px; font-weight: 700; }
+.layout main { padding: 12px 24px; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; align-items: start; }
+.layout footer { padding: 6px 24px; color: #4a5568; font-size: 22px; border-top: 2px solid #dbe6f5; background: #e9eef6; }
+.page:has(> :nth-child(3):last-child), .page:has(> :only-child) { grid-template-columns: 1fr; }

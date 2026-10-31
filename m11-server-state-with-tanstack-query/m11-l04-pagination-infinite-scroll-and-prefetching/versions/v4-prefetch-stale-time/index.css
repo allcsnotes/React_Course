@@ -1,0 +1,16 @@
+body { margin: 0; font: 18px/1.35 system-ui, sans-serif; color: #1c2430; background: #f3f5f9; }
+main { padding: 14px 22px; }
+h1 { margin: 0 0 8px; font-size: 29px; }
+.list { list-style: none; margin: 0; padding: 0; }
+.list li { display: flex; align-items: center; gap: 14px; background: #fff; border: 1px solid #d9deea; border-radius: 10px; padding: 5px 14px; margin-bottom: 5px; height: 26px; }
+.list strong { flex: 1; font-size: 21px; white-space: nowrap; }
+.list span { font-size: 19px; color: #4a5568; white-space: nowrap; }
+.pager { display: flex; align-items: center; justify-content: space-between; margin-top: 10px; }
+.pager span { font-weight: 700; font-size: 19px; }
+button { font: inherit; font-size: 19px; font-weight: 700; padding: 6px 16px; border: 0; border-radius: 10px; background: #1a7cff; color: #fff; cursor: pointer; }
+button:disabled { background: #b9c3d6; cursor: default; }
+.note { margin: 0; padding: 22px; font-size: 20px; }
+.dim { opacity: 0.45; }
+.more { display: flex; justify-content: center; margin-top: 10px; }
+.sentinel { height: 30px; margin-top: 8px; border: 2px dashed #1a7cff; border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #1a7cff; font-size: 18px; font-weight: 700; }
+.bad { margin: 0; padding: 14px 16px; border: 2px solid #e0a5a0; border-radius: 12px; background: #fdecea; color: #b3261e; }

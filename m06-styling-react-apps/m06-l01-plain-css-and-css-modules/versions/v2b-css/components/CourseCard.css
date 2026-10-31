@@ -1,0 +1,28 @@
+.card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  margin-bottom: 10px;
+  background: #fff;
+  border-radius: 14px;
+}
+
+.thumb {
+  border-radius: 12px;
+}
+
+.info {
+  flex: 1;
+}
+
+.title {
+  margin: 0;
+  font-size: 18px;
+  color: #16181d;
+}
+
+.meta {
+  margin: 4px 0 0;
+  color: #4a5160;
+}

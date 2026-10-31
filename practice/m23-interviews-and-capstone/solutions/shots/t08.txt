@@ -1,0 +1,51 @@
+--- start ---
+Showing 8 of 8 · filter applied 0 times
+Title	Level	Price
+React for Beginners	Beginner	Rs 499
+SQL in Two Weeks	Beginner	Rs 399
+Docker for Developers	Intermediate	Rs 599
+System Design	Intermediate	Rs 999
+Python from Zero	Beginner	Rs 349
+Testing React Apps	Intermediate	Rs 549
+Git and GitHub	Beginner	Rs 299
+FastAPI in Practice	Intermediate	Rs 649
+--- right after typing "react" (5 keys, debounce still waiting) ---
+Showing 8 of 8 · filter applied 0 times
+Title	Level	Price
+React for Beginners	Beginner	Rs 499
+SQL in Two Weeks	Beginner	Rs 399
+Docker for Developers	Intermediate	Rs 599
+System Design	Intermediate	Rs 999
+Python from Zero	Beginner	Rs 349
+Testing React Apps	Intermediate	Rs 549
+Git and GitHub	Beginner	Rs 299
+FastAPI in Practice	Intermediate	Rs 649
+--- 500 ms later ---
+Showing 2 of 8 · filter applied 1 times
+Title	Level	Price
+React for Beginners	Beginner	Rs 499
+Testing React Apps	Intermediate	Rs 549
+--- after clicking Price (ascending) ---
+Showing 2 of 8 · filter applied 1 times
+Title	Level	Price ▲
+React for Beginners	Beginner	Rs 499
+Testing React Apps	Intermediate	Rs 549
+--- after clicking Price again (descending) ---
+Showing 2 of 8 · filter applied 1 times
+Title	Level	Price ▼
+Testing React Apps	Intermediate	Rs 549
+React for Beginners	Beginner	Rs 499
+--- empty case: "zzz" ---
+Showing 0 of 8 · filter applied 2 times
+No courses match "zzz". Clear filter
+--- after Clear filter ---
+Showing 8 of 8 · filter applied 3 times
+Title	Level	Price ▼
+System Design	Intermediate	Rs 999
+FastAPI in Practice	Intermediate	Rs 649
+Docker for Developers	Intermediate	Rs 599
+Testing React Apps	Intermediate	Rs 549
+React for Beginners	Beginner	Rs 499
+SQL in Two Weeks	Beginner	Rs 399
+Python from Zero	Beginner	Rs 349
+Git and GitHub	Beginner	Rs 299

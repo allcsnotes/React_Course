@@ -1,0 +1,7 @@
+"react": [ 'React for Beginners', 'Testing React Apps' ]
+price asc: [
+  299, 349, 399,
+  499, 549, 599,
+  649, 999
+]
+filter: all checks passed

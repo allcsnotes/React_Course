@@ -1,0 +1,12 @@
+:root { --bg: #f3f5f9; --card: #ffffff; --text: #14213d; --muted: #55627d; --line: #d5dbe8; --blue: #1a7cff; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); color: var(--text); }
+main { padding: 18px 26px; }
+h1 { font-size: 34px; margin: 0 0 14px; color: var(--blue); }
+ul { list-style: none; margin: 0; padding: 0; }
+main > ul > li { display: flex; justify-content: space-between; font-size: 24px; padding: 12px 16px; margin-bottom: 8px; border: 2px solid var(--line); border-radius: 12px; background: var(--card); }
+.total { font-size: 26px; font-weight: 800; margin: 14px 0; }
+.row { display: flex; gap: 14px; }
+button { font: inherit; font-size: 22px; font-weight: 700; padding: 10px 24px; border-radius: 12px; border: 2px solid var(--blue); background: var(--blue); color: #fff; cursor: pointer; }
+.oops { margin: 90px 26px; font-size: 34px; font-weight: 800; color: #b42323; }
+input { font: inherit; font-size: 22px; width: 320px; padding: 8px 14px; margin-bottom: 14px; border-radius: 10px; border: 2px solid var(--line); }

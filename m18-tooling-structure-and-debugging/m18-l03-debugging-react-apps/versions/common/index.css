@@ -1,0 +1,9 @@
+body { margin: 0; font: 22px/1.35 system-ui, sans-serif; color: #1c2430; background: #f3f5f9; }
+main { padding: 10px 18px; }
+h1 { margin: 0 0 8px; font-size: 30px; }
+ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+li { display: flex; justify-content: space-between; background: #fff; border: 1px solid #d9deea; border-radius: 10px; padding: 8px 14px; font-size: 22px; }
+.total { font-size: 28px; font-weight: 800; margin: 12px 0 8px; }
+.row { display: flex; gap: 10px; }
+button { font: inherit; font-weight: 700; padding: 6px 14px; border-radius: 8px; border: 0; background: #1a7cff; color: #fff; }
+input { font: inherit; padding: 4px 10px; border-radius: 8px; border: 1px solid #aab; width: 150px; }

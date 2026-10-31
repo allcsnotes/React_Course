@@ -1,0 +1,12 @@
+.banner {
+  margin-bottom: 12px;
+  padding: 10px 14px;
+  background: var(--brand);
+  border-radius: 14px;
+}
+
+.title {
+  margin: 0;
+  font-size: 26px;
+  color: #fff;
+}

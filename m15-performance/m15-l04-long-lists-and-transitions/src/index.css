@@ -1,0 +1,28 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #f3f5f9; color: #14213d; }
+.app { background: #f3f5f9; }
+.top { display: flex; align-items: center; gap: 14px; padding: 0 18px; height: 64px; background: #fff; border-bottom: 2px solid #d5dbe8; }
+.logo { font-size: 22px; font-weight: 800; color: #1a7cff; }
+input { flex: 1; font: inherit; font-size: 19px; padding: 6px 12px; border-radius: 9px; border: 2px solid #b9c3d8; min-width: 0; }
+.count { font-size: 18px; font-weight: 700; color: #55627d; white-space: nowrap; }
+.list { height: 336px; overflow: auto; margin: 0; padding: 0; list-style: none; }
+.list-free { overflow: auto; }
+ul { margin: 0; padding: 0; list-style: none; }
+.row { display: flex; align-items: center; gap: 12px; height: 56px; padding: 0 18px; border-bottom: 1px solid #d5dbe8; background: #fff; font-size: 19px; }
+.num { width: 76px; color: #55627d; font-weight: 700; }
+.title { flex: 1; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.tag { font-size: 16px; font-weight: 700; padding: 2px 10px; border-radius: 999px; background: rgba(26, 124, 255, .16); color: #1a7cff; }
+.hrs { width: 52px; text-align: right; color: #55627d; font-weight: 600; }
+.gallery { height: 336px; overflow: auto; padding: 12px 18px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; align-content: start; transition: opacity .1s; }
+.gallery.stale { opacity: .45; }
+.gcard { border: 2px solid #d5dbe8; border-radius: 12px; padding: 10px; background: #fff; }
+.thumb { height: 34px; border-radius: 8px; background: linear-gradient(135deg, #1a7cff, #6fb1ff); margin-bottom: 8px; }
+.gcard h3 { margin: 0 0 4px; font-size: 18px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.meta { display: flex; justify-content: space-between; align-items: center; font-size: 16px; color: #55627d; font-weight: 600; }
+.stars { color: #e5a50a; letter-spacing: 1px; }
+.stars i { font-style: normal; }
+.found { padding: 6px 18px 0; font-size: 18px; font-weight: 700; color: #55627d; height: 34px; }
+.gallery { height: 302px; }
+.dim { opacity: .45; }
+.virtual { position: relative; }
+.virtual .row { position: absolute; top: 0; left: 0; width: 100%; }

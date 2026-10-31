@@ -1,0 +1,12 @@
+import { Dropdown, Modal, Tabs } from './ui'
+const f = () => {}
+export const a = <Modal open onClose={f}>Hi</Modal>
+export const b = (
+  <Tabs value="lessons">
+    <div />
+  </Tabs>
+)
+export const c = (
+  <Dropdown label="Actions" onSelect={f}
+    items={[{ id: 1, label: 'Rename' }]} />
+)

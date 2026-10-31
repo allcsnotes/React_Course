@@ -1,0 +1,20 @@
+body { margin: 0; font: 20px system-ui;
+  background: #f3f5f9; color: #16181d; }
+.search { max-width: 410px; margin: 4px auto; }
+h1 { font-size: 26px; margin: 0 0 6px; }
+.box { display: flex; gap: 8px; }
+.box input { flex: 1; font: inherit; padding: 4px 10px;
+  border: 1px solid #c3cad6; border-radius: 8px; }
+button { font: inherit; padding: 3px 12px;
+  border-radius: 8px; border: 0;
+  background: #1a5fd0; color: #fff; }
+.status { margin: 8px 0 4px; color: #5f6b7e; }
+.bad { color: #c0392b; }
+ul { list-style: none; margin: 0; padding: 0; }
+li { height: 32px; line-height: 32px;
+  background: #fff; border: 1px solid #dde2ea;
+  border-radius: 10px; padding: 0 12px;
+  margin-bottom: 4px; }
+mark { background: #ffe58a; color: inherit;
+  border-radius: 3px; }
+#root { zoom: 1.4; }

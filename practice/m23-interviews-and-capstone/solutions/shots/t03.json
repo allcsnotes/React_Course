@@ -1,0 +1,38 @@
+[
+ {
+  "label": "start",
+  "text": "★\n★\n★\n★\n★\nNo rating yet"
+ },
+ {
+  "label": "after clicking the 4th star",
+  "text": "★\n★\n★\n★\n★\nYou rated this course 4 of 5"
+ },
+ {
+  "label": "after clicking the 4th star again (clears it)",
+  "text": "★\n★\n★\n★\n★\nNo rating yet"
+ },
+ {
+  "label": "keyboard: ArrowRight x2",
+  "text": "You rated this course 3 of 5\nfocused: 3 stars\nchecked: 3 stars"
+ },
+ {
+  "label": "keyboard: End x1",
+  "text": "You rated this course 5 of 5\nfocused: 5 stars\nchecked: 5 stars"
+ },
+ {
+  "label": "keyboard: ArrowLeft x1",
+  "text": "You rated this course 4 of 5\nfocused: 4 stars\nchecked: 4 stars"
+ },
+ {
+  "label": "keyboard: Home x1",
+  "text": "You rated this course 1 of 5\nfocused: 1 star\nchecked: 1 star"
+ },
+ {
+  "label": "keyboard: ArrowLeft x1",
+  "text": "You rated this course 1 of 5\nfocused: 1 star\nchecked: 1 star"
+ },
+ {
+  "label": "Tab order: stars in the tab order",
+  "text": "1"
+ }
+]

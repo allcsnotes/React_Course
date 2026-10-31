@@ -1,0 +1,20 @@
+.app { position: relative; }
+.header { height: 78px; align-items: flex-start; padding-top: 8px; }
+.bar { align-items: center; gap: 10px; }
+.cart { font-size: 19px; font-weight: 700; }
+.main { height: 277px; padding-top: 8px; }
+.main h1 { display: flex; align-items: baseline; gap: 14px; margin-bottom: 4px; }
+.card { padding: 10px 12px; }
+.card h2 { font-size: 19px; }
+.card p { margin: 0 0 8px; }
+.card .cnt { display: block; width: fit-content; margin: 2px 0; }
+.cnt { font-size: 16px; }
+.logo .cnt { margin-left: 8px; }
+.footer .cnt { margin-left: 14px; }
+.lk { display: flex; align-items: center; gap: 10px; }
+.card button { width: auto; }
+.compact .card p { display: none; }
+.compact .card { padding: 6px 12px; }
+.compact .main { padding-top: 8px; }
+.row { font-size: 18px; padding: 2px 0; }
+.pg { position: absolute; right: 18px; top: 92px; }

@@ -1,0 +1,27 @@
+body { margin: 0; font-family: system-ui, sans-serif; background: #f3f5f9; color: #14213d; font-size: 22px; }
+.page { min-height: 100vh; box-sizing: border-box; padding: 10px 12px; display: flex; flex-direction: column; justify-content: center; gap: 10px; }
+.page.one { align-items: center; }
+.page h1 { margin: 0; font-size: 30px; }
+.card { background: #fff; border: 2px solid #1a7cff; border-radius: 14px; overflow: hidden; width: 620px; }
+.card h2 { margin: 0; padding: 8px 20px; background: #1a7cff; color: #fff; font-size: 36px; min-height: 52px; }
+.body { margin: 0; padding: 12px 20px; color: #3a4658; font-size: 32px; }
+.body.small { padding-top: 0; }
+button { margin: 8px 20px 16px; padding: 8px 22px; border: 0; border-radius: 10px; background: #1a7cff; color: #fff; font-size: 28px; font-weight: 700; font-family: inherit; }
+button:disabled { background: #b8c4d6; }
+button.ghost { background: #e4ecf8; color: #0b57c4; }
+button.warn { background: #ffe3e3; color: #b3261e; }
+.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; align-items: start; }
+.col { background: #fff; border: 2px solid #dbe6f5; border-radius: 14px; overflow: hidden; }
+.col h2 { margin: 0; padding: 6px 12px; font-size: 30px; background: #14213d; color: #fff; }
+.row { display: flex; align-items: center; justify-content: space-between; padding: 6px 10px; border-top: 2px solid #eef2f8; font-size: 23px; font-weight: 600; min-height: 44px; }
+.row:first-of-type { border-top: 0; }
+.row button { margin: 0; padding: 3px 10px; font-size: 22px; }
+.item { padding: 6px 10px; border-top: 2px solid #eef2f8; }
+.item .t { font-size: 24px; font-weight: 700; }
+.item .t.done { color: #1a7a3c; }
+.item .b { display: flex; gap: 8px; margin-top: 4px; }
+.item .b button { margin: 0; padding: 2px 12px; font-size: 22px; }
+.empty { padding: 12px; color: #6b778a; font-size: 24px; }
+.tag { font-size: 22px; background: #d9ecff; color: #0b57c4; padding: 1px 10px; border-radius: 999px; margin-left: 8px; font-weight: 700; }
+.item .b .tag { margin-left: 2px; align-self: center; }
+.item .sub { font-size: 22px; color: #6b778a; font-weight: 600; }

@@ -1,0 +1,30 @@
+--- start ---
+Slow API (2.5 s)Failing API (500)
+--- after typing "rea" fast (3 keys, 80 ms apart) ---
+Slow API (2.5 s)Failing API (500)
+React for Beginners
+React Hooks in Practice
+Testing React Apps
+--- practice API log: how many searches were sent? ---
+search q=rea (done)
+--- keyboard: ArrowDown, ArrowDown, then Enter ---
+highlighted: React Hooks in Practice
+input now: React Hooks in Practice
+list open: false
+--- empty case: "zzz" ---
+Slow API (2.5 s)Failing API (500)
+No courses found
+--- slow case: typed "py", then "pyt" while the first answer was still on its way ---
+Slow API (2.5 s)Failing API (500)
+Python from Zero
+Python Basics
+Async Python
+Python Performance
+--- practice API log (the first request must be closed by the browser) ---
+search q=py (closed by the browser)
+search q=pyt (done)
+--- error case: API answers 500 ---
+Slow API (2.5 s)Failing API (500)
+Something went wrong
+--- console errors ---
+Failed to load resource: the server responded with a status of 500 (Internal Server Error)

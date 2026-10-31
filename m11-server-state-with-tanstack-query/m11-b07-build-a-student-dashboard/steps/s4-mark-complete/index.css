@@ -1,0 +1,24 @@
+body { margin: 0; font: 16px/1.35 system-ui, sans-serif; color: #1c2430; background: #f3f5f9; }
+a { color: #1a5fd0; text-decoration: none; font-weight: 600; }
+.top { display: flex; justify-content: space-between; align-items: center; padding: 10px 22px; background: #fff; border-bottom: 1px solid #d9deea; font-size: 16px; }
+.top .who { color: #5b6678; }
+main { padding: 14px 22px; }
+h1 { margin: 0 0 10px; font-size: 26px; }
+.grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.card { background: #fff; border: 1px solid #d9deea; border-radius: 12px; padding: 10px 14px; }
+.card h2 { margin: 0 0 2px; font-size: 19px; }
+.card p, .meta { margin: 2px 0; font-size: 15px; color: #4a5568; }
+.track { height: 12px; border-radius: 6px; background: #dfe5f1; overflow: hidden; margin-top: 8px; }
+.fill { height: 100%; background: #1a7cff; border-radius: 6px; transition: width .3s; }
+.fill.full { background: #2e9e5b; }
+.lessons { list-style: none; margin: 12px 0 0; padding: 0; }
+.lessons li { display: flex; align-items: center; gap: 12px; padding: 7px 12px; margin-bottom: 7px; background: #fff; border: 1px solid #d9deea; border-radius: 10px; font-size: 16px; }
+.lessons .t { flex: 1; font-weight: 600; }
+.tag { padding: 2px 10px; border-radius: 999px; font-size: 14px; background: #e6e9f1; color: #4a5568; }
+.tag.done { background: #dff3e6; color: #1f7a45; }
+button { font: 600 15px system-ui, sans-serif; padding: 5px 12px; border-radius: 8px; border: 1px solid #1a7cff; background: #1a7cff; color: #fff; cursor: pointer; }
+button:disabled { opacity: .5; cursor: default; }
+.note { margin: 0; padding: 20px 4px; font-size: 18px; }
+.bad { margin: 10px 0; padding: 10px 14px; border: 2px solid #e0a5a0; border-radius: 12px; background: #fdecea; color: #b3261e; font-size: 16px; }
+.bad p { margin: 0 0 8px; color: #b3261e; }
+.chip { margin-left: 10px; padding: 2px 10px; border-radius: 999px; background: #e8f0ff; color: #1a5fd0; font-size: 14px; font-weight: 600; vertical-align: middle; }

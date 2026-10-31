@@ -1,0 +1,3 @@
+* { box-sizing: border-box; margin: 0; }
+body { font-family: system-ui, sans-serif; background: #f3f5f9; color: #16181d; }
+#root { min-height: 100vh; display: flex; flex-direction: column; }

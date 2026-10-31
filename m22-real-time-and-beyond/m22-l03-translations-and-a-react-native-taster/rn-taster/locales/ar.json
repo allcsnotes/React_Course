@@ -1,0 +1,15 @@
+{
+  "greeting": "مرحبًا بعودتك، {{name}}",
+  "hero": "تعلّم React من الصفر",
+  "course": "React: من الصفر إلى الإنتاج",
+  "lessons_zero": "لا دروس",
+  "lessons_one": "درس واحد",
+  "lessons_two": "درسان",
+  "lessons_few": "{{count}} دروس",
+  "lessons_many": "{{count}} درسًا",
+  "lessons_other": "{{count}} درس",
+  "learners": "{{count, number}} متعلم",
+  "price": "السعر: {{amount, currency(EUR)}}",
+  "starts": "يبدأ في {{date, datetime(dateStyle: long)}}",
+  "enroll": "سجّل الآن"
+}

@@ -1,0 +1,30 @@
+[
+ {
+  "label": "start",
+  "text": "Time on screen \n1.5 s\n4 s\nAdd success toastAdd error toast\nNo toasts"
+ },
+ {
+  "label": "after 4 success toasts (only the newest 3 stay)",
+  "text": "Time on screen \n1.5 s\n4 s\nAdd success toastAdd error toast\n3 toasts on screen\nSaved (2)\n×\nSaved (3)\n×\nSaved (4)\n×"
+ },
+ {
+  "label": "error toast role",
+  "text": "alert"
+ },
+ {
+  "label": "after 2.2 s (1.5 s time on screen)",
+  "text": "Time on screen \n1.5 s\n4 s\nAdd success toastAdd error toast\nNo toasts"
+ },
+ {
+  "label": "hovering the toast for 2.2 s (the clock is paused)",
+  "text": "Time on screen \n1.5 s\n4 s\nAdd success toastAdd error toast\n1 toast on screen\nSaved (6)\n×"
+ },
+ {
+  "label": "mouse moved away, 2.2 s later",
+  "text": "Time on screen \n1.5 s\n4 s\nAdd success toastAdd error toast\nNo toasts"
+ },
+ {
+  "label": "after clicking × on a toast",
+  "text": "Time on screen \n1.5 s\n4 s\nAdd success toastAdd error toast\nNo toasts"
+ }
+]

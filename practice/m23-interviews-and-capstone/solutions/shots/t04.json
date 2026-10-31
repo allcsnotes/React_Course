@@ -1,0 +1,26 @@
+[
+ {
+  "label": "start",
+  "text": "Clear all comments\nLukas The keys lesson helped.\nCollapseReply\nMeera Thank you, Lukas!\nCollapseReply\nLukas Loved the demo.\nReply\nPriya Same here.\nReply\nAsha Can we get the code?\nReply"
+ },
+ {
+  "label": "after Collapse on Lukas",
+  "text": "Clear all comments\nLukas The keys lesson helped.\nShow 3 repliesReply\nAsha Can we get the code?\nReply"
+ },
+ {
+  "label": "after Show 3 replies",
+  "text": "Clear all comments\nLukas The keys lesson helped.\nCollapseReply\nMeera Thank you, Lukas!\nCollapseReply\nLukas Loved the demo.\nReply\nPriya Same here.\nReply\nAsha Can we get the code?\nReply"
+ },
+ {
+  "label": "after Reply on Priya: \"Welcome, Priya\"",
+  "text": "Clear all comments\nLukas The keys lesson helped.\nCollapseReply\nMeera Thank you, Lukas!\nCollapseReply\nLukas Loved the demo.\nReply\nPriya Same here.\nCollapseReply\nAsha Welcome, Priya\nReply\nAsha Can we get the code?\nReply"
+ },
+ {
+  "label": "empty reply on Asha: Enter with nothing typed",
+  "text": "Clear all comments\nLukas The keys lesson helped.\nCollapseReply\nMeera Thank you, Lukas!\nCollapseReply\nLukas Loved the demo.\nReply\nPriya Same here.\nCollapseReply\nAsha Welcome, Priya\nReply\nSend\nAsha Can we get the code?\nReply"
+ },
+ {
+  "label": "after Clear all comments",
+  "text": "Clear all comments\nNo comments yet"
+ }
+]

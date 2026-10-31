@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font:
+    22px/1.35 system-ui,
+    sans-serif;
+  color: #1c2430;
+  background: #f3f5f9;
+}
+main {
+  padding: 10px 18px;
+}
+h1 {
+  margin: 12px 0 6px;
+  font-size: 30px;
+}
+nav {
+  display: flex;
+  gap: 12px;
+}
+button {
+  font: inherit;
+  font-weight: 700;
+  padding: 6px 14px;
+  border-radius: 8px;
+  border: 2px solid #1a7cff;
+  background: #fff;
+  color: #1a7cff;
+}
+button.on {
+  background: #1a7cff;
+  color: #fff;
+}
+.meta {
+  color: #3b4658;
+  font-size: 22px;
+}
+.err {
+  color: #b3261e;
+  font-weight: 700;
+}
+.badge {
+  display: inline-block;
+  background: #1c2430;
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 20px;
+  font-weight: 700;
+}

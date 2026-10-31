@@ -1,0 +1,41 @@
+// The end-to-end check: node e2e.mjs  (dev server on 5717, practice API on 8217). Prints one line per check, with the measured value.
+import { open, setMode, reset, APP } from './pw.mjs'
+const out = []; const pass = (ok, what, val) => { out.push(`${ok ? 'PASS' : 'FAIL'}  ${what}${val !== undefined ? '  (' + val + ')' : ''}`) }
+const T = async S => (await S.text()).replace(/\n+/g, ' ')
+const sleep = ms => new Promise(r => setTimeout(r, ms))
+// 1. normal day
+await reset(); setMode('ok')
+let S = await open(APP); const w = ms => S.p.waitForTimeout(ms)
+await S.p.waitForSelector('.grid')
+pass((await S.p.locator('.card').count()) === 4, 'dashboard lists 4 courses', 'React for Beginners 2 of 4')
+let n = S.reqs.length; await S.p.click('a:has-text("React for Beginners")'); await S.p.waitForSelector('.lessons'); await w(300)
+pass(S.reqs.length - n === 1, 'opening a course sends 1 request', S.reqs.slice(n).map(r => r.url.split('/').slice(3).join('/')).join(', '))
+n = S.reqs.length; await S.p.click('a:has-text("All my courses")'); await w(500)
+pass(S.reqs.length - n === 0, 'back to the dashboard sends 0 requests', 'fresh for 30 s')
+await S.p.click('a:has-text("React for Beginners")'); await S.p.waitForSelector('.lessons'); await w(300)
+n = S.reqs.length; const t0 = Date.now(); await S.p.click('button:has-text("Mark complete") >> nth=0')
+await S.p.waitForFunction(() => document.querySelectorAll('.tag.done').length === 3); const ms = Date.now() - t0
+pass(ms < 400, 'lesson turns Done before the server answers', ms + ' ms')
+pass((await T(S)).includes('3 of 4 lessons · 75%'), 'course page shows 3 of 4 lessons, 75%')
+await S.p.click('a:has-text("All my courses")'); await w(100)
+pass((await T(S)).includes('React for Beginners by Meera 3 of 4 lessons · 75%'), 'dashboard shows 3 of 4 at once, no flash of the old number')
+await w(2000)
+pass(S.reqs.filter(r => r.method === 'POST').length === 1, 'exactly 1 save request', S.reqs.slice(n).map(r => r.method).join(' then '))
+await S.close(false); await sleep(500)
+// 2. the server refuses to save
+await reset(); setMode('fail')
+S = await open(APP); await S.p.waitForSelector('.grid'); await S.p.click('a:has-text("React for Beginners")'); await S.p.waitForSelector('.lessons'); await S.p.waitForTimeout(300)
+await S.p.click('button:has-text("Mark complete") >> nth=0'); await S.p.waitForTimeout(200)
+pass((await T(S)).includes('3 of 4 lessons'), 'after the click: 3 of 4 at once (the guess)')
+await S.p.waitForSelector('.bad', { timeout: 10000 }); await S.p.waitForTimeout(600)
+const tx = await T(S)
+pass(tx.includes('2 of 4 lessons · 50%') && tx.includes('Could not save: Server answered 500'), 'server said 500: back to 2 of 4, message shown')
+await S.p.click('a:has-text("All my courses")'); await S.p.waitForTimeout(100)
+pass((await T(S)).includes('React for Beginners by Meera 2 of 4 lessons · 50%'), 'dashboard rolled back too: 2 of 4')
+await S.close(false); await sleep(500)
+// 3. the server is down
+await reset(); setMode('down')
+S = await open(APP); await S.p.waitForSelector('.bad', { timeout: 20000 })
+pass((await T(S)).includes('Server answered 503') && (await S.p.locator('button:has-text("Try again")').count()) === 1, 'server down: error message and a Try again button')
+await S.close(false); setMode('ok'); await reset()
+console.log(out.join('\n')); console.log(`${out.filter(l => l.startsWith('PASS')).length} passed, ${out.filter(l => l.startsWith('FAIL')).length} failed`); process.exit(0)

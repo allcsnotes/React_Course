@@ -1,0 +1,8 @@
+body { margin: 0; font-family: system-ui, sans-serif; font-size: 27px; color: #17202e; background: #f3f5f9 }
+main { padding: 26px 34px }
+h1 { font-size: 42px; margin: 0 0 20px }
+button { font: inherit; font-size: 27px; padding: 10px 22px; margin: 0 14px 18px 0; border-radius: 12px; border: 3px solid #1a7cff; background: #fff; color: #0b3a82; cursor: pointer }
+input { font: inherit; font-size: 27px; padding: 10px 16px; border-radius: 12px; border: 3px solid #9aa7bd; width: 480px }
+p { margin: 12px 0 }
+.note { display: block; width: fit-content; color: #0b3a82; font-weight: 700 }
+.slot { display: inline-block; min-width: 70px; min-height: 48px; padding: 6px 22px; border: 3px dashed #9aa7bd; border-radius: 12px; margin: 0 }

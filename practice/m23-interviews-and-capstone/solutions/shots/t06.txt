@@ -1,0 +1,46 @@
+--- start ---
+Time on screen 
+1.5 s
+4 s
+Add success toastAdd error toast
+No toasts
+--- after 4 success toasts (only the newest 3 stay) ---
+Time on screen 
+1.5 s
+4 s
+Add success toastAdd error toast
+3 toasts on screen
+Saved (2)
+×
+Saved (3)
+×
+Saved (4)
+×
+--- error toast role ---
+alert
+--- after 2.2 s (1.5 s time on screen) ---
+Time on screen 
+1.5 s
+4 s
+Add success toastAdd error toast
+No toasts
+--- hovering the toast for 2.2 s (the clock is paused) ---
+Time on screen 
+1.5 s
+4 s
+Add success toastAdd error toast
+1 toast on screen
+Saved (6)
+×
+--- mouse moved away, 2.2 s later ---
+Time on screen 
+1.5 s
+4 s
+Add success toastAdd error toast
+No toasts
+--- after clicking × on a toast ---
+Time on screen 
+1.5 s
+4 s
+Add success toastAdd error toast
+No toasts

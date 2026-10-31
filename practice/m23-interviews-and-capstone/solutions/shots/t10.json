@@ -1,0 +1,46 @@
+[
+ {
+  "label": "start",
+  "text": "Step 1 of 3\nName\nEmail\nNext"
+ },
+ {
+  "label": "Next with empty step 1",
+  "text": "Step 1 of 3\nName\nName must be at least 2 letters\nEmail\nEnter a valid email\nNext\nfocused: name"
+ },
+ {
+  "label": "name \"A\", email \"nope\"",
+  "text": "Step 1 of 3\nName\nName must be at least 2 letters\nEmail\nEnter a valid email\nNext"
+ },
+ {
+  "label": "step 1 fixed, moved on",
+  "text": "Step 2 of 3\nPlan\nChoose...\nFree\nPro\n I accept the terms\nBackNext"
+ },
+ {
+  "label": "Next with empty step 2",
+  "text": "Step 2 of 3\nPlan\nChoose...\nFree\nPro\nChoose a plan\n I accept the terms\nYou must accept the terms\nBackNext"
+ },
+ {
+  "label": "step 2 done, review",
+  "text": "Step 3 of 3\nName: Asha\nEmail: asha@example.com\nPlan: pro\nBackEnroll"
+ },
+ {
+  "label": "after Back: the plan is still",
+  "text": "pro"
+ },
+ {
+  "label": "right after Enroll",
+  "text": "Step 3 of 3\nName: Asha\nEmail: asha@example.com\nPlan: pro\nBackSending..."
+ },
+ {
+  "label": "after the fake server answered",
+  "text": "Welcome, Asha! Enrolled on the pro plan."
+ },
+ {
+  "label": "error case: the server refuses @fail.test",
+  "text": "Step 3 of 3\nName: Rahul\nEmail: rahul@fail.test\nPlan: free\nCould not enroll. Check the email and try again.\nBackEnroll"
+ },
+ {
+  "label": "values kept after the error: name, email",
+  "text": "Rahul, rahul@fail.test"
+ }
+]

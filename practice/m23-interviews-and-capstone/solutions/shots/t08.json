@@ -1,0 +1,30 @@
+[
+ {
+  "label": "start",
+  "text": "Showing 8 of 8 · filter applied 0 times\nTitle\tLevel\tPrice\nReact for Beginners\tBeginner\tRs 499\nSQL in Two Weeks\tBeginner\tRs 399\nDocker for Developers\tIntermediate\tRs 599\nSystem Design\tIntermediate\tRs 999\nPython from Zero\tBeginner\tRs 349\nTesting React Apps\tIntermediate\tRs 549\nGit and GitHub\tBeginner\tRs 299\nFastAPI in Practice\tIntermediate\tRs 649"
+ },
+ {
+  "label": "right after typing \"react\" (5 keys, debounce still waiting)",
+  "text": "Showing 8 of 8 · filter applied 0 times\nTitle\tLevel\tPrice\nReact for Beginners\tBeginner\tRs 499\nSQL in Two Weeks\tBeginner\tRs 399\nDocker for Developers\tIntermediate\tRs 599\nSystem Design\tIntermediate\tRs 999\nPython from Zero\tBeginner\tRs 349\nTesting React Apps\tIntermediate\tRs 549\nGit and GitHub\tBeginner\tRs 299\nFastAPI in Practice\tIntermediate\tRs 649"
+ },
+ {
+  "label": "500 ms later",
+  "text": "Showing 2 of 8 · filter applied 1 times\nTitle\tLevel\tPrice\nReact for Beginners\tBeginner\tRs 499\nTesting React Apps\tIntermediate\tRs 549"
+ },
+ {
+  "label": "after clicking Price (ascending)",
+  "text": "Showing 2 of 8 · filter applied 1 times\nTitle\tLevel\tPrice ▲\nReact for Beginners\tBeginner\tRs 499\nTesting React Apps\tIntermediate\tRs 549"
+ },
+ {
+  "label": "after clicking Price again (descending)",
+  "text": "Showing 2 of 8 · filter applied 1 times\nTitle\tLevel\tPrice ▼\nTesting React Apps\tIntermediate\tRs 549\nReact for Beginners\tBeginner\tRs 499"
+ },
+ {
+  "label": "empty case: \"zzz\"",
+  "text": "Showing 0 of 8 · filter applied 2 times\nNo courses match \"zzz\". Clear filter"
+ },
+ {
+  "label": "after Clear filter",
+  "text": "Showing 8 of 8 · filter applied 3 times\nTitle\tLevel\tPrice ▼\nSystem Design\tIntermediate\tRs 999\nFastAPI in Practice\tIntermediate\tRs 649\nDocker for Developers\tIntermediate\tRs 599\nTesting React Apps\tIntermediate\tRs 549\nReact for Beginners\tBeginner\tRs 499\nSQL in Two Weeks\tBeginner\tRs 399\nPython from Zero\tBeginner\tRs 349\nGit and GitHub\tBeginner\tRs 299"
+ }
+]

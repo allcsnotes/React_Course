@@ -1,0 +1,15 @@
+.DS_Store
+node_modules/
+dist/
+.next/
+out/
+.vite/
+.env
+.env.local
+*.env.local
+!*.example
+coverage/
+test-results/
+playwright-report/
+*.log
+*.pid

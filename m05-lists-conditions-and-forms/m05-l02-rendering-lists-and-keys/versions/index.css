@@ -1,0 +1,16 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #f3f5f9; color: #16181d; font-size: 14px; }
+.top { display: flex; align-items: center; gap: 8px; height: 34px; padding: 0 10px; background: #fff; border-bottom: 1px solid #dde2ea; }
+.top b { font-size: 16px; color: #1a5fd0; margin-right: auto; }
+ul { list-style: none; margin: 0; padding: 6px 8px; display: flex; flex-direction: column; gap: 4px; }
+.row { display: flex; align-items: center; gap: 8px; height: 40px; padding: 0 8px; background: #fff; border: 1px solid #dde2ea; border-radius: 8px; }
+.row img { width: 26px; height: 26px; border-radius: 6px; }
+.row b { font-size: 17px; width: 172px; white-space: nowrap; }
+.row small { font-size: 14px; color: #4a5160; }
+.row input { flex: 1; min-width: 0; height: 28px; font-size: 14px; padding: 0 6px; border: 1px solid #c5ccd8; border-radius: 6px; }
+button { font-size: 13px; font-weight: 700; height: 28px; padding: 0 10px; border: 0; border-radius: 6px; background: #1a5fd0; color: #fff; cursor: pointer; white-space: nowrap; }
+.plain li { height: 30px; font-size: 16px; font-weight: 600; padding: 0 10px; display: flex; align-items: center; background: #fff; border: 1px solid #dde2ea; border-radius: 8px; }
+h3 { margin: 6px 12px 0; font-size: 15px; color: #4a5160; }
+dl { margin: 0; padding: 8px 12px; }
+dt { font-size: 17px; font-weight: 800; margin-top: 8px; }
+dd { margin: 1px 0 0; font-size: 15px; color: #4a5160; }

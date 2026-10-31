@@ -1,0 +1,39 @@
+html { zoom: 1.25; }
+body { margin: 0; font: 16px/1.35 system-ui, sans-serif; color: #1c2430; background: #f3f5f9; }
+header { display: flex; justify-content: space-between; align-items: center; padding: 10px 18px; background: #fff; border-bottom: 1px solid #d9deea; }
+header strong { font-size: 20px; }
+.tag { font-size: 16px; font-weight: 600; padding: 4px 12px; border-radius: 999px; background: #e3eeff; color: #1a5fd0; }
+main { padding: 14px 18px; }
+h2 { margin: 0 0 6px; font-size: 19px; }
+.panel { background: #fff; border: 1px solid #d9deea; border-radius: 12px; padding: 12px 16px; }
+form { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+label { display: flex; flex-direction: column; gap: 4px; font-weight: 600; font-size: 15px; }
+input { font: inherit; font-size: 16px; padding: 6px 10px; border: 2px solid #b9c3d6; border-radius: 8px; width: 250px; outline: none; }
+input:focus { border-color: #1a7cff; box-shadow: 0 0 0 3px rgba(26, 124, 255, .25); }
+button { font: inherit; font-weight: 700; font-size: 16px; padding: 7px 20px; border: 0; border-radius: 8px; background: #1a7cff; color: #fff; cursor: pointer; }
+button:disabled { background: #8fb8f5; cursor: default; }
+form button { align-self: flex-end; }
+.msg { margin: 8px 0 0; min-height: 22px; font-weight: 600; font-size: 16px; }
+.ok { color: #14804a; }
+.error { color: #b3261e; }
+.small { color: #5b6678; font-size: 14px; margin: 2px 0 0; }
+ul.list { list-style: none; margin: 10px 0 0; padding: 0; }
+ul.list li { padding: 5px 10px; margin-top: 5px; background: #eef2f9; border-radius: 8px; font-size: 16px; }
+ul.list li.sending { color: #6b7587; font-style: normal; background: #f6f1de; }
+.grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.card { background: #fff; border: 1px solid #d9deea; border-radius: 12px; padding: 10px 14px; }
+.card h2 { margin: 0 0 4px; font-size: 19px; }
+.card p { margin: 2px 0; font-size: 15px; }
+.note { margin: 0; padding: 22px; font-size: 18px; }
+.msg, form .small { flex-basis: 100%; }
+.msg:empty { display: none; }
+ul.list li { padding: 4px 10px; margin-top: 4px; }
+.grid { gap: 14px; }
+.grid .card { padding: 12px 16px; min-height: 100px; }
+.grid .card h2 { font-size: 20px; margin-bottom: 8px; }
+.grid .card p { font-size: 16px; }
+.note { font-size: 20px; padding: 24px; }
+main { padding: 10px 16px; }
+.panel { padding: 8px 14px; }
+ul.list { margin-top: 6px; }
+form .small { margin: 0; }

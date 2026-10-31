@@ -1,0 +1,40 @@
+header { display: flex; align-items: center; gap: 22px; height: 40px; padding: 0 20px;
+  background: #fff; border-bottom: 1px solid #dde2ea; }
+.logo { font-size: 20px; font-weight: 800; color: #1a5fd0; }
+nav { display: flex; gap: 6px; height: 100%; }
+nav a { display: flex; align-items: center; padding: 0 12px; font-size: 17px; font-weight: 600;
+  color: #4a5160; text-decoration: none; border-bottom: 3px solid transparent; }
+nav a.active {
+  color: #1a5fd0;
+  background: #e8f0ff;
+  border-bottom-color: #1a5fd0;
+}
+nav a.on {
+  color: #1a5fd0;
+  background: #e8f0ff;
+  border-bottom-color: #1a5fd0;
+}
+main { padding: 12px 20px; }
+h1 { font-size: 30px; line-height: 1.15; margin-top: 18px; }
+h2 { font-size: 26px; margin-bottom: 8px; }
+main p { margin-top: 8px; line-height: 1.3; }
+.cta { display: inline-block; margin-top: 18px; padding: 9px 18px; font-size: 19px; font-weight: 700;
+  color: #fff; background: #1a5fd0; border-radius: 10px; text-decoration: none; }
+.filters { display: flex; align-items: center; gap: 14px; margin-bottom: 10px; }
+select { height: 32px; padding: 0 8px; font: inherit; border: 1.5px solid #b8c0cc; border-radius: 7px; background: #fff; }
+.free { display: flex; align-items: center; gap: 6px; font-weight: 600; }
+.free input { width: 18px; height: 18px; }
+.count { margin-left: auto; color: #4a5160; font-weight: 600; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.course { display: flex; flex-direction: column; gap: 4px; padding: 10px 12px; background: #fff;
+  border: 1px solid #dde2ea; border-radius: 12px; text-decoration: none; color: #16181d; }
+.course b { font-size: 18px; }
+.course span { font-size: 16px; color: #4a5160; }
+.meta { color: #4a5160; }
+.price { font-size: 22px; font-weight: 800; color: #14532d; }
+.slug { margin-top: 6px; padding: 8px 12px; font: 700 22px ui-monospace, monospace; background: #fff;
+  border: 1px solid #dde2ea; border-radius: 10px; }
+main button { display: block; margin-top: 12px; padding: 0 28px; height: 38px; font-size: 19px; font-weight: 700;
+  border: 0; border-radius: 10px; background: #1a5fd0; color: #fff; cursor: pointer; }
+main a { color: #1a5fd0; font-weight: 600; }
+.mine { margin: 6px 0 0 22px; line-height: 1.7; font-size: 19px; }

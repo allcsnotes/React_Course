@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f3f5f9;
+}
+h2 { margin: 0; font-size: 40px; }
+p { margin: 10px 0 0; font-size: 26px; color: #4a5160; }
+#students { color: #1a5fd0; }
+.logo { font-size: 30px; color: #1a5fd0; }
+button {
+  width: 100%;
+  height: 64px;
+  margin-top: 26px;
+  font-size: 26px;
+  color: white;
+  background: green;
+  border: 0;
+  border-radius: 14px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 84px;
+  padding: 0 48px;
+  background: white;
+}
+.badge {
+  padding: 10px 22px;
+  font-size: 24px;
+  background: #eef3fd;
+  border-radius: 99px;
+}
+.course {
+  width: 560px;
+  margin: 40px auto;
+  padding: 32px;
+  background: white;
+  border-radius: 20px;
+}

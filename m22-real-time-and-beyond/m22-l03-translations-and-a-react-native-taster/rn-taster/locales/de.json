@@ -1,0 +1,11 @@
+{
+  "greeting": "Willkommen zurück, {{name}}",
+  "hero": "React von null lernen",
+  "course": "React: Von null bis Produktion",
+  "lessons_one": "{{count}} Lektion",
+  "lessons_other": "{{count}} Lektionen",
+  "learners": "{{count, number}} Lernende",
+  "price": "Preis: {{amount, currency(EUR)}}",
+  "starts": "Start am {{date, datetime(dateStyle: long)}}",
+  "enroll": "Jetzt anmelden"
+}

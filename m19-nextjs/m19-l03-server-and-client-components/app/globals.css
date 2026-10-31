@@ -1,0 +1,12 @@
+body { margin: 0; font-family: system-ui, sans-serif; background: #f3f5f9; color: #111827; }
+main { padding: 18px 18px; }
+h1 { margin: 0 0 16px; font-size: 34px; }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+article { background: #fff; border: 1px solid #d5dbe6; border-radius: 12px; padding: 16px 16px; display: flex; flex-direction: column; min-height: 290px; box-sizing: border-box; }
+article h2 { margin: 0; font-size: 24px; line-height: 1.15; }
+article .by { margin: 6px 0 10px; font-size: 19px; color: #4b5563; }
+article .about { margin: 0 0 12px; font-size: 19px; line-height: 1.35; flex: 1; }
+article .about p { margin: 0; }
+button { font-size: 19px; font-weight: 700; padding: 8px 18px; border-radius: 8px; border: 2px solid #1a7cff; background: #1a7cff; color: #fff; cursor: pointer; align-self: flex-start; }
+button.done { background: #fff; color: #0b6b3a; border-color: #0b6b3a; }
+button.link { background: none; border: none; color: #1a7cff; padding: 0 0 8px; font-size: 18px; font-weight: 600; }

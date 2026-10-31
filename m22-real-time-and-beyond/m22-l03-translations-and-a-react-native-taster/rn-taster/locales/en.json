@@ -1,0 +1,11 @@
+{
+  "greeting": "Welcome back, {{name}}",
+  "hero": "Learn React from zero",
+  "course": "React: From Zero to Production",
+  "lessons_one": "{{count}} lesson",
+  "lessons_other": "{{count}} lessons",
+  "learners": "{{count, number}} learners",
+  "price": "Price: {{amount, currency(EUR)}}",
+  "starts": "Starts on {{date, datetime(dateStyle: long)}}",
+  "enroll": "Enroll now"
+}

@@ -1,0 +1,15 @@
+import { render } from '@testing-library/react'
+import { test } from 'vitest'
+import { CourseCard } from './CourseCard'
+
+const course = {
+  id: 1,
+  title: 'React from Zero',
+  priceCents: 4990,
+  percentOff: 20,
+  seatsLeft: 12,
+}
+
+test('shows the price', () => {
+  render(<CourseCard course={course} />)
+})

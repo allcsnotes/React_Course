@@ -1,0 +1,2 @@
+move C up: [ 'A', 'C', 'B', 'D' ]
+reorder: all checks passed

@@ -1,0 +1,7 @@
+empty step 1: {
+  name: 'Name must be at least 2 letters',
+  email: 'Enter a valid email'
+}
+empty step 2: { plan: 'Choose a plan', terms: 'You must accept the terms' }
+submit ok: Welcome, Asha! Enrolled on the pro plan.
+wizard: all checks passed

@@ -1,0 +1,16 @@
+import { JSDOM } from 'jsdom';
+const dom = new JSDOM('<div id="root"></div>', { pretendToBeVisual: true });
+globalThis.window = dom.window; globalThis.document = dom.window.document;
+globalThis.IS_REACT_ACT_ENVIRONMENT = true;
+const React = await import('react');
+const { createRoot } = await import('react-dom/client');
+const { Counters } = await import('./counters.mjs');
+const root = createRoot(document.getElementById('root'));
+await React.act(async () => root.render(<Counters />));
+const text = id => document.getElementById(id).textContent;
+console.log('before any click:', text('plain'), '|', text('updater'));
+await React.act(async () => document.getElementById('plain').dispatchEvent(new dom.window.MouseEvent('click', { bubbles: true })));
+console.log('after one click on plain:', text('plain'));
+await React.act(async () => document.getElementById('updater').dispatchEvent(new dom.window.MouseEvent('click', { bubbles: true })));
+console.log('after one click on updater:', text('updater'));
+process.exit(0);

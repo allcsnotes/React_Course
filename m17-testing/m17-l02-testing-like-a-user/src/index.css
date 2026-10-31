@@ -1,0 +1,15 @@
+html { zoom: 1.4; }
+body { margin: 0; font: 16px/1.35 system-ui, sans-serif; color: #1c2430; background: #f3f5f9; }
+main { padding: 10px 16px; }
+h1 { margin: 0 0 6px; font-size: 24px; }
+h2 { margin: 4px 0 4px; font-size: 19px; }
+form { display: flex; gap: 8px; align-items: flex-end; margin: 8px 0 4px; }
+label { display: flex; flex-direction: column; gap: 4px; font-weight: 600; font-size: 15px; }
+input { font: inherit; font-size: 16px; padding: 6px 10px; border: 2px solid #b9c3d6; border-radius: 8px; width: 250px; outline: none; }
+button { font: inherit; font-weight: 700; font-size: 16px; padding: 7px 20px; border: 0; border-radius: 8px; background: #1a7cff; color: #fff; cursor: pointer; }
+button[aria-pressed="true"] { background: #14804a; }
+button:disabled { background: #8fb8f5; cursor: default; }
+.slot { min-height: 26px; margin: 2px 0; }
+[role="status"] { color: #14804a; font-weight: 600; margin: 0; }
+ul { margin: 2px 0; padding-left: 22px; }
+.btn { display: inline-block; font-weight: 700; padding: 7px 20px; border-radius: 8px; background: #1a7cff; color: #fff; cursor: pointer; }

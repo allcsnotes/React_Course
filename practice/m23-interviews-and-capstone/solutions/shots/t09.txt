@@ -1,0 +1,79 @@
+--- start ---
+1. What React Is
+Up
+Down
+2. Props
+Up
+Down
+3. useState
+Up
+Down
+4. useEffect
+Up
+Down
+5. Context
+Up
+Down
+Reset order
+Order: What React Is, Props, useState, useEffect, Context
+--- after Move Props up ---
+1. Props
+Up
+Down
+2. What React Is
+Up
+Down
+3. useState
+Up
+Down
+4. useEffect
+Up
+Down
+5. Context
+Up
+Down
+Reset order
+Moved Props to position 1 of 5
+Order: Props, What React Is, useState, useEffect, Context
+--- Enter pressed 4 times on Move Context up ---
+1. Context
+Up
+Down
+2. Props
+Up
+Down
+3. What React Is
+Up
+Down
+4. useState
+Up
+Down
+5. useEffect
+Up
+Down
+Reset order
+Moved Context to position 1 of 5
+Order: Context, Props, What React Is, useState, useEffect
+focused: Move Context down
+--- buttons that are disabled ---
+Move Context up
+Move useEffect down
+--- after Reset order ---
+1. What React Is
+Up
+Down
+2. Props
+Up
+Down
+3. useState
+Up
+Down
+4. useEffect
+Up
+Down
+5. Context
+Up
+Down
+Reset order
+Order reset
+Order: What React Is, Props, useState, useEffect, Context

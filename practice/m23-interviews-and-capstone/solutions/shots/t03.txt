@@ -1,0 +1,43 @@
+--- start ---
+★
+★
+★
+★
+★
+No rating yet
+--- after clicking the 4th star ---
+★
+★
+★
+★
+★
+You rated this course 4 of 5
+--- after clicking the 4th star again (clears it) ---
+★
+★
+★
+★
+★
+No rating yet
+--- keyboard: ArrowRight x2 ---
+You rated this course 3 of 5
+focused: 3 stars
+checked: 3 stars
+--- keyboard: End x1 ---
+You rated this course 5 of 5
+focused: 5 stars
+checked: 5 stars
+--- keyboard: ArrowLeft x1 ---
+You rated this course 4 of 5
+focused: 4 stars
+checked: 4 stars
+--- keyboard: Home x1 ---
+You rated this course 1 of 5
+focused: 1 star
+checked: 1 star
+--- keyboard: ArrowLeft x1 ---
+You rated this course 1 of 5
+focused: 1 star
+checked: 1 star
+--- Tab order: stars in the tab order ---
+1

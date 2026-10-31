@@ -1,0 +1,33 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #f3f5f9; color: #16181d; font-size: 18px; }
+.page { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; padding: 12px 26px; }
+h1, h2 { margin: 0 0 10px; font-size: 26px; }
+h3 { margin: 0 0 6px; font-size: 22px; }
+p { margin: 6px 0; font-size: 18px; }
+p.out { font-size: 22px; font-weight: 700; margin-top: 12px; }
+.row { display: flex; gap: 12px; }
+.btn { display: inline-block; font: inherit; font-size: 19px; font-weight: 700; padding: 8px 18px; border: 0; border-radius: 10px; background: #1a5fd0; color: #fff; cursor: pointer; }
+.ghost { display: inline-block; font: inherit; font-size: 19px; font-weight: 700; border-radius: 10px; background: #fff; color: #1a5fd0; border: 2px solid #1a5fd0; padding: 6px 16px; cursor: pointer; }
+:focus-visible { outline: 4px solid #f08c00; outline-offset: 3px; }
+.overlay { position: fixed; inset: 0; background: rgba(10, 20, 40, 0.6); }
+.dialog { position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 400px; background: #fff; border-radius: 14px; padding: 16px 22px 20px; box-shadow: 0 20px 50px rgba(0,0,0,.4); }
+.dialog .row { margin-top: 12px; }
+.naive { position: fixed; inset: 0; background: rgba(10, 20, 40, 0.6); display: flex; align-items: center; justify-content: center; }
+.naive .dialog { position: static; transform: none; }
+.course { display: flex; align-items: center; gap: 14px; background: #fff; border: 1px solid #dde2ea; border-radius: 12px; padding: 8px 14px; margin-bottom: 8px; }
+.course img { width: 52px; height: 52px; border-radius: 10px; }
+.course h3, .course h2 { margin: 0; font-size: 21px; }
+.meta { margin: 2px 0 0; font-size: 17px; color: #4a5160; }
+label { display: block; font-size: 19px; font-weight: 600; margin-bottom: 4px; }
+.field { margin-bottom: 8px; }
+input { display: block; width: 100%; font: inherit; font-size: 19px; padding: 7px 10px; border: 2px solid #8a93a3; border-radius: 10px; background: #fff; color: #16181d; }
+.iconbtn { display: inline-flex; align-items: center; justify-content: center; margin-top: 8px; width: 44px; height: 38px; border: 2px solid #1a5fd0; background: #fff; border-radius: 10px; }
+.page.low { justify-content: flex-end; padding-bottom: 14px; }
+.page.low p.out { margin: 8px 0 0; font-size: 20px; }
+.page.low h2 { margin-bottom: 8px; }
+.overlay, .naive { background: rgba(10, 20, 40, 0.5); }
+.naive { align-items: flex-start; }
+.dialog { top: 10px; transform: translateX(-50%); }
+.naive .dialog { position: static; transform: none; margin-top: 10px; }
+.dialog h2, .dialog h3 { margin: 0 0 4px; font-size: 22px; }
+.dialog p { margin: 0; font-size: 17px; color: #4a5160; }

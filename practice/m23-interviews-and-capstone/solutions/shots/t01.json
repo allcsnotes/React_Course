@@ -1,0 +1,38 @@
+[
+ {
+  "label": "start",
+  "text": "Slow API (2.5 s)Failing API (500)"
+ },
+ {
+  "label": "after typing \"rea\" fast (3 keys, 80 ms apart)",
+  "text": "Slow API (2.5 s)Failing API (500)\nReact for Beginners\nReact Hooks in Practice\nTesting React Apps"
+ },
+ {
+  "label": "practice API log: how many searches were sent?",
+  "text": "search q=rea (done)"
+ },
+ {
+  "label": "keyboard: ArrowDown, ArrowDown, then Enter",
+  "text": "highlighted: React Hooks in Practice\ninput now: React Hooks in Practice\nlist open: false"
+ },
+ {
+  "label": "empty case: \"zzz\"",
+  "text": "Slow API (2.5 s)Failing API (500)\nNo courses found"
+ },
+ {
+  "label": "slow case: typed \"py\", then \"pyt\" while the first answer was still on its way",
+  "text": "Slow API (2.5 s)Failing API (500)\nPython from Zero\nPython Basics\nAsync Python\nPython Performance"
+ },
+ {
+  "label": "practice API log (the first request must be closed by the browser)",
+  "text": "search q=py (closed by the browser)\nsearch q=pyt (done)"
+ },
+ {
+  "label": "error case: API answers 500",
+  "text": "Slow API (2.5 s)Failing API (500)\nSomething went wrong"
+ },
+ {
+  "label": "console errors",
+  "text": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+ }
+]

@@ -1,0 +1,26 @@
+header { display: flex; align-items: center; height: 30px; padding: 0 20px;
+  background: #fff; border-bottom: 1px solid #dde2ea; }
+.logo { font-size: 20px; font-weight: 800; color: #1a5fd0; }
+.card { width: 600px; margin: 8px auto 0; padding: 8px 18px 12px; background: #fff;
+  border: 1px solid #dde2ea; border-radius: 14px; }
+.card h2 { font-size: 22px; margin-bottom: 2px; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; column-gap: 18px; }
+label { display: block; min-height: 80px; font-size: 17px; font-weight: 600; color: #4a5160; }
+input:not([type=checkbox]), select { display: block; width: 100%; height: 32px; margin-top: 2px;
+  padding: 0 8px; font: inherit; font-weight: 400; color: #16181d;
+  border: 1.5px solid #b8c0cc; border-radius: 7px; background: #fff; }
+input:focus, select:focus { outline: 2px solid #1a5fd0; outline-offset: 0; }
+label.check { display: flex; flex-wrap: wrap; align-items: center; align-content: flex-start;
+  gap: 0 10px; padding-top: 22px; font-weight: 400; color: #16181d; }
+label.check input { width: 20px; height: 20px; margin: 0; }
+label.check .error { flex-basis: 100%; }
+.error { margin-top: 3px; line-height: 1.15; font-size: 17px; font-weight: 600; color: #c62828; }
+button { display: block; width: 100%; height: 38px; margin-top: 2px; font-size: 19px; font-weight: 700;
+  border: 0; border-radius: 10px; background: #1a5fd0; color: #fff; cursor: pointer; }
+button:disabled { background: #b9c2d0; cursor: not-allowed; }
+.thanks { width: 600px; margin: 6px auto 0; padding: 6px 18px; font-size: 18px; font-weight: 600;
+  color: #14532d; background: #e3f6e9; border: 1px solid #9bd8ae; border-radius: 12px; }
+
+.btns { display: flex; gap: 12px; margin-top: 2px; }
+.btns button { margin-top: 0; }
+button.clear { background: #fff; color: #1a5fd0; border: 2px solid #1a5fd0; }

@@ -1,0 +1,11 @@
+{
+  "greeting": "वापसी पर स्वागत है, {{name}}",
+  "hero": "शून्य से React सीखें",
+  "course": "React: शून्य से प्रोडक्शन तक",
+  "lessons_one": "{{count}} पाठ",
+  "lessons_other": "{{count}} पाठ",
+  "learners": "{{count, number}} विद्यार्थी",
+  "price": "कीमत: {{amount, currency(EUR)}}",
+  "starts": "शुरुआत: {{date, datetime(dateStyle: long)}}",
+  "enroll": "अभी नामांकन करें"
+}

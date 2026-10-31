@@ -1,0 +1,38 @@
+[
+ {
+  "label": "start",
+  "text": "Overview\nLessons\nReviews\nOverview: 12 lessons, 3 hours."
+ },
+ {
+  "label": "after Tab (first stop is the Back to menu button above)",
+  "text": "selected tab: Overview | focused: Back to menu | visible panel: Overview: 12 lessons, 3 hours."
+ },
+ {
+  "label": "after a second Tab (focus enters the tab list)",
+  "text": "selected tab: Overview | focused: Overview | visible panel: Overview: 12 lessons, 3 hours."
+ },
+ {
+  "label": "after ArrowRight",
+  "text": "selected tab: Lessons | focused: Lessons | visible panel: Lessons: start with What React Is."
+ },
+ {
+  "label": "after End",
+  "text": "selected tab: Reviews | focused: Reviews | visible panel: Reviews: 4.8 out of 5."
+ },
+ {
+  "label": "after ArrowRight",
+  "text": "selected tab: Overview | focused: Overview | visible panel: Overview: 12 lessons, 3 hours."
+ },
+ {
+  "label": "after Home",
+  "text": "selected tab: Overview | focused: Overview | visible panel: Overview: 12 lessons, 3 hours."
+ },
+ {
+  "label": "after ArrowLeft",
+  "text": "selected tab: Reviews | focused: Reviews | visible panel: Reviews: 4.8 out of 5."
+ },
+ {
+  "label": "tab stops in the list",
+  "text": "1"
+ }
+]

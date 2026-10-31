@@ -1,0 +1,10 @@
+body { margin: 0; font-family: system-ui, sans-serif; background: #f3f5f9; color: #14213d; }
+header { padding: 18px 28px; font-size: 26px; font-weight: 800; background: #fff; border-bottom: 1px solid #dde3ee; }
+main { display: flex; gap: 22px; padding: 24px 28px; height: calc(100vh - 63px); box-sizing: border-box; }
+.seats { margin: 0; font-size: 20px; color: #4a5875; }
+.card { flex: 1; background: #fff; border: 1px solid #dde3ee; border-radius: 14px; padding: 26px 24px; display: flex; flex-direction: column; gap: 12px; align-items: flex-start; justify-content: flex-start; }
+.card h2 { margin: 0; font-size: 24px; }
+.price { margin: 0; font-size: 30px; font-weight: 800; }
+.badge { font-size: 18px; font-weight: 700; color: #0a7a3d; background: #dff6e8; border-radius: 999px; padding: 3px 12px; }
+button { font-size: 20px; font-weight: 700; color: #fff; background: #1a7cff; border: 0; border-radius: 10px; padding: 10px 22px; }
+button:disabled { background: #b8c2d4; }

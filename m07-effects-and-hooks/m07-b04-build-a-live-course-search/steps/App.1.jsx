@@ -1,0 +1,48 @@
+import { useEffect, useState } from 'react'
+
+function searchUrl(q) {
+  return '/api/courses?q=' + encodeURIComponent(q)
+}
+
+export default function App() {
+  const [query, setQuery] = useState('')
+  const [status, setStatus] = useState('idle')
+  const [items, setItems] = useState([])
+
+  useEffect(() => {
+    if (query === '') {
+      setStatus('idle')
+      return
+    }
+    setStatus('loading')
+    fetch(searchUrl(query))
+      .then(res => res.json())
+      .then(data => {
+        setItems(data.items)
+        setStatus('done')
+      })
+  }, [query])
+
+  return (
+    <main className="search">
+      <h1>Find a course</h1>
+      <div className="box">
+        <input
+          value={query}
+          onChange={e => setQuery(e.target.value)}
+          placeholder="Search courses"
+        />
+      </div>
+      {status === 'loading' && (
+        <p className="status">Searching...</p>
+      )}
+      {status === 'done' && (
+        <ul>
+          {items.map(c => (
+            <li key={c.id}>{c.title}</li>
+          ))}
+        </ul>
+      )}
+    </main>
+  )
+}

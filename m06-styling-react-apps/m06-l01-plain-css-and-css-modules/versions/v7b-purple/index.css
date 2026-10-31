@@ -1,0 +1,17 @@
+:root {
+  --brand: #7c3aed;
+  --ink: #16181d;
+  --muted: #4a5160;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 16px;
+  font-family: system-ui, sans-serif;
+  color: var(--ink);
+  background: #f3f5f9;
+}

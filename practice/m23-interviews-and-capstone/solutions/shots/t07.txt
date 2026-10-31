@@ -1,0 +1,19 @@
+--- start ---
+Open unenroll dialogAnother page button
+Focus is on: nothing
+--- dialog opened ---
+Focus is on: Reason
+--- after Tab ---
+Focus is on: Keep my place
+--- after Tab ---
+Focus is on: Unenroll
+--- after Tab ---
+Focus is on: Reason
+--- after Shift+Tab ---
+Focus is on: Unenroll
+--- page behind the dialog is inert ---
+true
+--- after Escape ---
+Focus is on: Open unenroll dialog
+--- after clicking the dark backdrop ---
+Focus is on: Open unenroll dialog

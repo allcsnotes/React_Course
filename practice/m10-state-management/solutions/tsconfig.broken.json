@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": { "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.broken.tsbuildinfo", "noUnusedLocals": false },
+  "include": ["broken", "src/data.ts", "src/lib", "src/reducers", "src/vite-env.d.ts"]
+}

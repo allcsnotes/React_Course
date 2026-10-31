@@ -1,0 +1,24 @@
+--- after the first load (no scrolling yet, the window is tall) ---
+10 lessons loaded
+last row: Lesson 10: Short-hand Logic
+bottom: Loading...
+--- after scrolling to the bottom ---
+50 lessons loaded
+last row: Lesson 50: useQuery
+bottom: That is all
+--- console log of the page ---
+load page 1
+load page 2
+load page 3
+load page 4
+load page 5
+--- error case: API answers 500 on page 1 (opened with ?fail=1) ---
+0 lessons loaded
+last row: (none)
+bottom: Could not load more.Retry
+--- after the API is fixed and Retry was clicked ---
+10 lessons loaded
+last row: Lesson 10: Short-hand Logic
+bottom: (empty)
+--- console errors ---
+Failed to load resource: the server responded with a status of 500 (Internal Server Error)

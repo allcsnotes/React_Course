@@ -1,0 +1,29 @@
+body { margin: 0; font: 20px system-ui;
+  background: #f3f5f9; color: #16181d; }
+.planner { max-width: 580px; margin: 6px auto; }
+h1 { font-size: 26px; margin: 0 0 6px; }
+.add { display: flex; gap: 8px; }
+.add input { flex: 1; font: inherit; padding: 4px 10px;
+  border: 1px solid #c3cad6; border-radius: 8px; }
+button { font: inherit; padding: 3px 12px;
+  border-radius: 8px; border: 0;
+  background: #1a5fd0; color: #fff; }
+.filters { display: flex; gap: 6px; margin: 8px 0; }
+.filters button { background: #e3e8f1; color: #16181d; }
+.filters .on { background: #1a5fd0; color: #fff; }
+ul { list-style: none; margin: 0; padding: 0; }
+.task { display: flex; align-items: center; gap: 10px;
+  background: #fff; border: 1px solid #dde2ea;
+  border-radius: 10px; padding: 0 10px; height: 36px;
+  margin-bottom: 5px; }
+.task input[type=checkbox] { width: 20px; height: 20px; }
+.text { flex: 1; }
+.done { text-decoration: line-through; color: #5f6b7e; }
+.editing { flex: 1; display: flex; }
+.editing input { flex: 1; font: inherit; padding: 2px 8px;
+  border: 2px solid #1a5fd0; border-radius: 6px; }
+.task button { background: #e3e8f1; color: #16181d; }
+.foot { display: flex; justify-content: space-between;
+  align-items: center; margin-top: 6px; }
+.plain { background: #e3e8f1; color: #16181d; }
+.empty { text-align: center; color: #5f6b7e; margin: 8px; }

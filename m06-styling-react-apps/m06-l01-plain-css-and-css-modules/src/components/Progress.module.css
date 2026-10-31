@@ -1,0 +1,33 @@
+.panel {
+  padding: 12px;
+  background: #fff;
+  border-radius: 14px;
+}
+
+.label {
+  margin: 0 0 8px;
+  font-weight: 600;
+}
+
+.track {
+  height: 12px;
+  margin-bottom: 10px;
+  background: #e3e8f0;
+  border-radius: 6px;
+}
+
+.fill {
+  height: 100%;
+  background: var(--brand);
+  border-radius: 6px;
+}
+
+.btn {
+  padding: 8px 14px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  background: var(--brand);
+  border: 0;
+  border-radius: 8px;
+}

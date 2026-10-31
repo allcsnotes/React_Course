@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  background: #ffffff;
+  color: #171717;
+  font-family: var(--font-geist-sans), Arial, sans-serif;
+  font-size: 22px;
+}
+
+main {
+  padding: 34px 44px;
+}
+
+h1 {
+  margin: 0 0 14px;
+  font-size: 40px;
+}
+
+h2 {
+  margin: 26px 0 8px;
+  font-size: 28px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+ul {
+  margin: 8px 0;
+  padding-left: 28px;
+  line-height: 1.95;
+}

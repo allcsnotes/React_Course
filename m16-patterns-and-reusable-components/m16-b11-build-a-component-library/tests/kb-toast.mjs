@@ -1,0 +1,16 @@
+import { start, focus, check, press, summary } from './kb.mjs'
+const S = await start('#toast'), p = S.p
+const toasts = () => p.locator('.toast').count()
+await p.locator('nav a').last().focus(); await press(p, 'Tab'); let f = await focus(p)
+check('Tab reaches the Save button', f === 'button "Save"', f)
+await press(p, 'Enter')
+check('Enter shows a toast', (await toasts()) === 1, JSON.stringify((await p.locator('.toast').first().innerText()).replace(/\n/g, ' ')))
+f = await focus(p); check('focus stays on the button', f === 'button "Save"', f)
+const live = await p.getByRole('status').filter({ hasText: 'Saved your changes' }).count()
+check('the toast sits in a status region', live === 1, `${live} found`)
+await press(p, 'Enter'); check('a second toast stacks under the first', (await toasts()) === 2, `${await toasts()} toasts`)
+await press(p, 'Tab'); f = await focus(p); check('Tab reaches a Dismiss button', f === 'button "Dismiss"', f)
+await press(p, 'Enter'); check('Enter dismisses that toast', (await toasts()) === 1, `${await toasts()} toast left`)
+await p.waitForTimeout(4500); check('the rest leave by themselves after 4 s', (await toasts()) === 0, `${await toasts()} toasts left`)
+summary()
+await S.close()

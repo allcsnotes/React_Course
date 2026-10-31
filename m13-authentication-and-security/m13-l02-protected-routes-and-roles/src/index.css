@@ -1,0 +1,20 @@
+body { margin: 0; font: 19px/1.4 system-ui, sans-serif; color: #1c2430; background: #f3f5f9; }
+header { display: flex; align-items: center; gap: 18px; padding: 0 20px; height: 52px; background: #16233b; color: #fff; }
+header a { color: #cfe0ff; text-decoration: none; font-weight: 600; }
+header a.active { color: #fff; border-bottom: 3px solid #4c9dff; }
+.brand { font-weight: 800; color: #fff !important; }
+.who { margin-left: auto; display: flex; align-items: center; gap: 8px; }
+button { font: inherit; border: 0; border-radius: 8px; padding: 5px 10px; background: #2d4a7c; color: #fff; cursor: pointer; }
+button.big { padding: 14px 20px; font-size: 22px; background: #1a7cff; display: block; width: 100%; text-align: left; }
+.stack { display: grid; gap: 14px; max-width: 420px; }
+b.student, b.instructor, b.admin { font-size: 14px; padding: 2px 8px; border-radius: 999px; background: #dbe8ff; color: #0b3c8c; }
+b.instructor { background: #dff5e6; color: #14663a; } b.admin { background: #ffe3cf; color: #8a3b00; }
+main { padding: 20px 24px; }
+h1 { margin: 0 0 14px; font-size: 32px; }
+.grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.card { background: #fff; border: 1px solid #d9deea; border-radius: 12px; padding: 18px 22px; }
+.card h2 { margin: 0 0 4px; font-size: 24px; }
+.card p { margin: 4px 0; font-size: 21px; }
+.note { margin: 0 0 22px; font-size: 23px; }
+.bad { margin: 0; padding: 22px 24px; min-height: 90px; display: flex; align-items: center; border: 2px solid #e0a5a0; border-radius: 12px; background: #fdecea; color: #b3261e; font-size: 27px; font-weight: 600; }
+.grid:not(:has(li:nth-child(3))) { grid-template-columns: 1fr; }

@@ -1,0 +1,13 @@
+body { margin: 0; font: 21px system-ui;
+  background: #f3f5f9; color: #16181d; }
+header { display: flex; align-items: center;
+  justify-content: space-between;
+  padding: 8px 24px; background: #fff; }
+strong { font-size: 28px; color: #1a5fd0; }
+header span { padding: 6px 16px;
+  border-radius: 99px; background: #eef3fd; }
+main { padding: 0 24px 16px; }
+h2 { margin: 8px 0 2px; }
+main p { margin: 2px 0 12px; }
+footer { padding: 4px; text-align: center; }
+img { width: 44px; }

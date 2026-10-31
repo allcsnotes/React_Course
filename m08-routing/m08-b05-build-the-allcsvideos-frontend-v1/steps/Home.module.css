@@ -1,0 +1,4 @@
+.hero { background: #10233f; color: #fff; border-radius: 14px; padding: 10px 16px 12px; }
+.hero h1 { font-size: 26px; margin: 0 0 8px; }
+.cta { display: inline-block; background: #fff; color: var(--blue); text-decoration: none; font-weight: 700; border-radius: 8px; padding: 2px 12px; }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }

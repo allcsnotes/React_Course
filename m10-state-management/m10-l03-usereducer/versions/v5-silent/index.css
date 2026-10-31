@@ -1,0 +1,14 @@
+body { margin: 0; font: 20px/1.25 system-ui, sans-serif; color: #1c2430; background: #f3f5f9; }
+main { padding: 12px 18px; }
+h1 { margin: 0 0 10px; font-size: 28px; }
+h2 { margin: 0 0 6px; font-size: 22px; }
+.cols { display: grid; grid-template-columns: 1.08fr 1fr; gap: 14px; align-items: start; }
+section { background: #fff; border: 1px solid #d9deea; border-radius: 12px; padding: 10px 12px 12px; }
+.row { display: flex; align-items: center; gap: 8px; padding: 6px 0; border-top: 1px solid #eef0f5; min-height: 44px; }
+.row span { flex: 1; }
+small { display: block; font-size: 17px; font-weight: 700; color: #4a5568; }
+button { font: inherit; font-size: 19px; font-weight: 600; padding: 3px 12px; border-radius: 8px; border: 1px solid #1a7cff; background: #eaf2ff; color: #0b4fb3; cursor: pointer; }
+.muted { color: #6b7482; margin: 6px 0; }
+.chip { display: inline-block; flex: none !important; background: #e3f5ea; color: #1a6b3c; border: 1px solid #9fd8b3; border-radius: 999px; padding: 3px 12px; font-weight: 700; }
+.total { font-size: 23px; font-weight: 800; margin: 8px 0 8px; }
+.clear { border-color: #c9ced8; background: #fff; color: #444; }

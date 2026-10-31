@@ -1,0 +1,6 @@
+body { font-family: system-ui, sans-serif; background: #f3f5f9; color: #14202e; margin: 0; padding: 30px 44px; }
+h1 { font-size: 54px; margin: 0 0 18px; }
+button { font-size: 32px; padding: 12px 28px; border: 0; border-radius: 12px; background: #1a7cff; color: #fff; cursor: pointer; }
+#message { font-size: 36px; margin: 22px 0 12px; color: #3b4a5a; }
+ul { list-style: none; padding: 0; margin: 0; }
+li { font-size: 34px; background: #fff; border: 1px solid #d9dfe8; border-radius: 12px; padding: 8px 20px; margin: 8px 0; }

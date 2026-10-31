@@ -1,0 +1,26 @@
+[
+ {
+  "label": "after the first load (no scrolling yet, the window is tall)",
+  "text": "10 lessons loaded\nlast row: Lesson 10: Short-hand Logic\nbottom: Loading..."
+ },
+ {
+  "label": "after scrolling to the bottom",
+  "text": "50 lessons loaded\nlast row: Lesson 50: useQuery\nbottom: That is all"
+ },
+ {
+  "label": "console log of the page",
+  "text": "load page 1\nload page 2\nload page 3\nload page 4\nload page 5"
+ },
+ {
+  "label": "error case: API answers 500 on page 1 (opened with ?fail=1)",
+  "text": "0 lessons loaded\nlast row: (none)\nbottom: Could not load more.Retry"
+ },
+ {
+  "label": "after the API is fixed and Retry was clicked",
+  "text": "10 lessons loaded\nlast row: Lesson 10: Short-hand Logic\nbottom: (empty)"
+ },
+ {
+  "label": "console errors",
+  "text": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+ }
+]

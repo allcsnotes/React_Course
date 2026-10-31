@@ -1,0 +1,6 @@
+.wrap { display: flex; gap: 12px; }
+.side { width: 210px; flex: none; display: flex; flex-direction: column; gap: 3px; }
+.side h2 { margin: 0 0 4px; font-size: 21px; }
+.link, .on { text-decoration: none; color: var(--ink); padding: 2px 8px; border-radius: 8px; font-size: 20px; line-height: 1.2; }
+.on { background: #dbe7fb; color: var(--blue); font-weight: 700; }
+.content { flex: 1; background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 8px 14px; min-height: 200px; }

@@ -1,0 +1,14 @@
+body { margin: 0; font-family: system-ui, sans-serif; background: #f3f5f9; color: #14213d; font-size: 24px; }
+.page { min-height: 100vh; display: flex; flex-direction: column; }
+header { display: flex; align-items: center; justify-content: space-between; background: #14213d; color: #fff; padding: 8px 18px; }
+.logo { font-size: 26px; font-weight: 700; }
+.badge { padding: 2px 14px; border-radius: 999px; background: #d9ecff; color: #0b57c4; font-weight: 700; font-size: 24px; }
+main { flex: 1; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; align-content: center; padding: 10px 16px; }
+.card { background: #fff; border: 2px solid #1a7cff; border-radius: 12px; overflow: hidden; }
+.card h2 { margin: 0; padding: 4px 12px; background: #1a7cff; color: #fff; font-size: 26px; white-space: nowrap; }
+.card p { margin: 0; padding: 3px 12px 0; color: #4a5568; font-size: 23px; }
+.card > button { margin: 6px 12px 8px; }
+.card .row { display: flex; gap: 8px; padding: 6px 12px 8px; }
+button { padding: 3px 14px; border: 0; border-radius: 9px; background: #1a7cff; color: #fff; font-size: 22px; font-weight: 700; }
+button.ghost { background: #e6eefb; color: #0b57c4; }
+button:disabled { background: #2fa36b; }

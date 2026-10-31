@@ -1,0 +1,32 @@
+import { useState } from 'react'
+import Header from './Header.tsx'
+import CourseList from './CourseList.tsx'
+import Footer from './Footer.tsx'
+import { allCourses, type Course } from './data.ts'
+import { useRenderCount } from './useRenderCount.ts'
+import './counters.css'
+
+function cheapest(list: Course[]) {
+  console.log('sorting', list.length, 'courses')
+  return [...list].sort((a, b) => a.price - b.price).slice(0, 3)
+}
+
+let visits = 0
+
+export default function App() {
+  const n = useRenderCount()
+  const [cart, setCart] = useState(0)
+  visits = visits + 1
+  const top = cheapest(allCourses)
+  function open(slug: string) {
+    console.log('open', slug)
+  }
+  return (
+    <div className="app">
+      <span className="cnt pg">app {n}</span>
+      <Header cart={cart} onAdd={() => setCart(cart + 1)} />
+      <CourseList courses={top} onOpen={open} />
+      <Footer />
+    </div>
+  )
+}

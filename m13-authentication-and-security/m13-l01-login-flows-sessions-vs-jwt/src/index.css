@@ -1,0 +1,15 @@
+body { margin: 0; font: 22px/1.35 system-ui, sans-serif; color: #1c2430; background: #f3f5f9; }
+main { padding: 18px 26px; }
+h1 { margin: 0 0 14px; font-size: 34px; color: #1a56c4; }
+form { display: grid; gap: 12px; max-width: 520px; }
+label { display: grid; grid-template-columns: 110px 1fr; align-items: center; gap: 10px; font-size: 22px; }
+input { font: inherit; padding: 8px 12px; border: 2px solid #c9d0de; border-radius: 10px; background: #fff; }
+button { font: inherit; font-weight: 700; padding: 9px 20px; border: 0; border-radius: 10px; background: #1a7cff; color: #fff; justify-self: start; cursor: pointer; }
+button.ghost { background: #e4e8f1; color: #1c2430; }
+.row { display: flex; gap: 12px; margin: 10px 0; }
+.hello { font-size: 28px; margin: 6px 0 10px; }
+.chip { font-size: 18px; font-weight: 700; padding: 3px 12px; border-radius: 999px; background: #dce9ff; color: #1a56c4; vertical-align: middle; }
+.list { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 8px; font-size: 24px; }
+.list li { background: #fff; border: 1px solid #d9deea; border-radius: 10px; padding: 8px 14px; }
+.note { margin: 0; padding: 22px; font-size: 24px; }
+.bad { margin: 0; padding: 10px 14px; border: 2px solid #e0a5a0; border-radius: 10px; background: #fdecea; color: #b3261e; font-size: 20px; }

@@ -1,0 +1,22 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; font-size: 19px; color: #14213d; background: #f3f5f9; }
+header { display: flex; align-items: center; gap: 22px; padding: 14px 24px; background: #fff; border-bottom: 2px solid #dfe3ec; }
+header strong { font-size: 22px; color: #1a56db; margin-right: 8px; }
+header a { color: #14213d; text-decoration: none; font-weight: 600; }
+header input { margin-left: auto; width: 190px; padding: 6px 10px; font-size: 16px; border: 2px solid #c5cbd9; border-radius: 8px; }
+main, article { padding: 22px 24px; }
+h1 { margin: 0 0 10px; font-size: 32px; }
+p { margin: 0 0 12px; }
+.cta { display: inline-block; padding: 10px 20px; background: #1a56db; color: #fff; border-radius: 10px; text-decoration: none; font-weight: 700; }
+.banner { margin: 0; padding: 10px 24px; background: #fde9a8; font-weight: 700; }
+.bar { margin: 0; padding: 14px 24px; font-size: 24px; background: #e3ecff; border-bottom: 2px solid #c9d8ff; }
+.list { list-style: none; margin: 0; padding: 16px 24px; }
+.list li { display: flex; justify-content: space-between; padding: 12px 16px; margin-bottom: 10px; background: #fff; border-radius: 10px; border: 2px solid #dfe3ec; }
+.list a { color: #1a56db; font-weight: 700; text-decoration: none; }
+.list span { color: #55607a; }
+.skeleton { padding: 40px 24px; font-size: 24px; color: #55607a; }
+.price { font-size: 26px; font-weight: 800; color: #1a56db; }
+.oops { padding: 28px 24px; }
+.oops button { padding: 10px 20px; font-size: 18px; font-weight: 700; color: #fff; background: #d62f2f; border: 0; border-radius: 10px; }
+.oops a { color: #1a56db; font-weight: 700; }
+.team { margin: 0; padding-left: 22px; line-height: 1.7; }

@@ -1,0 +1,63 @@
+--- start ---
+Step 1 of 3
+Name
+Email
+Next
+--- Next with empty step 1 ---
+Step 1 of 3
+Name
+Name must be at least 2 letters
+Email
+Enter a valid email
+Next
+focused: name
+--- name "A", email "nope" ---
+Step 1 of 3
+Name
+Name must be at least 2 letters
+Email
+Enter a valid email
+Next
+--- step 1 fixed, moved on ---
+Step 2 of 3
+Plan
+Choose...
+Free
+Pro
+ I accept the terms
+BackNext
+--- Next with empty step 2 ---
+Step 2 of 3
+Plan
+Choose...
+Free
+Pro
+Choose a plan
+ I accept the terms
+You must accept the terms
+BackNext
+--- step 2 done, review ---
+Step 3 of 3
+Name: Asha
+Email: asha@example.com
+Plan: pro
+BackEnroll
+--- after Back: the plan is still ---
+pro
+--- right after Enroll ---
+Step 3 of 3
+Name: Asha
+Email: asha@example.com
+Plan: pro
+BackSending...
+--- after the fake server answered ---
+Welcome, Asha! Enrolled on the pro plan.
+--- error case: the server refuses @fail.test ---
+Step 3 of 3
+Name: Rahul
+Email: rahul@fail.test
+Plan: free
+Could not enroll. Check the email and try again.
+BackEnroll
+--- values kept after the error: name, email ---
+Rahul, rahul@fail.test

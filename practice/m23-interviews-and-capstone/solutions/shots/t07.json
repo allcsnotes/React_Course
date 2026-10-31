@@ -1,0 +1,38 @@
+[
+ {
+  "label": "start",
+  "text": "Open unenroll dialogAnother page button\nFocus is on: nothing"
+ },
+ {
+  "label": "dialog opened",
+  "text": "Focus is on: Reason"
+ },
+ {
+  "label": "after Tab",
+  "text": "Focus is on: Keep my place"
+ },
+ {
+  "label": "after Tab",
+  "text": "Focus is on: Unenroll"
+ },
+ {
+  "label": "after Tab",
+  "text": "Focus is on: Reason"
+ },
+ {
+  "label": "after Shift+Tab",
+  "text": "Focus is on: Unenroll"
+ },
+ {
+  "label": "page behind the dialog is inert",
+  "text": "true"
+ },
+ {
+  "label": "after Escape",
+  "text": "Focus is on: Open unenroll dialog"
+ },
+ {
+  "label": "after clicking the dark backdrop",
+  "text": "Focus is on: Open unenroll dialog"
+ }
+]

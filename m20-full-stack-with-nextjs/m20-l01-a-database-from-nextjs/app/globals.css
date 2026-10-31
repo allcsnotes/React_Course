@@ -1,0 +1,14 @@
+body { margin: 0; font-family: system-ui, sans-serif; background: #f3f5f9; color: #111827; }
+main { padding: 16px 20px; }
+h1 { margin: 0; font-size: 34px; }
+.by { margin: 4px 0 0; font-size: 20px; color: #4b5563; }
+.head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
+.seats { font-weight: 700; color: #0b6b3a; }
+h2 { margin: 12px 0 6px; font-size: 24px; }
+.rev { background: #fff; border: 1px solid #d5dbe6; border-radius: 10px; padding: 8px 12px; margin-bottom: 8px; font-size: 20px; line-height: 1.25; }
+.rev b { margin-right: 8px; }
+form.post { display: flex; gap: 8px; margin-top: 10px; }
+input { font-size: 19px; padding: 7px 10px; border: 1px solid #b6bfce; border-radius: 8px; min-width: 0; }
+input.n { width: 130px; }
+input.t { flex: 1; }
+button { font-size: 19px; font-weight: 700; padding: 8px 16px; border-radius: 8px; border: 2px solid #1a7cff; background: #1a7cff; color: #fff; cursor: pointer; white-space: nowrap; }

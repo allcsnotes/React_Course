@@ -1,0 +1,16 @@
+import { render, screen } from '@testing-library/react'
+import { expect, test } from 'vitest'
+import { CourseCard } from './CourseCard'
+
+const course = {
+  id: 1,
+  title: 'React from Zero',
+  priceCents: 4990,
+  percentOff: 20,
+  seatsLeft: 12,
+}
+
+test('shows an Enroll button', () => {
+  render(<CourseCard course={course} />)
+  expect(screen.getByText('Enrol')).toBeInTheDocument()
+})

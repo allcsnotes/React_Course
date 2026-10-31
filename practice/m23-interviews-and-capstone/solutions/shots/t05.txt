@@ -1,0 +1,21 @@
+--- start ---
+Overview
+Lessons
+Reviews
+Overview: 12 lessons, 3 hours.
+--- after Tab (first stop is the Back to menu button above) ---
+selected tab: Overview | focused: Back to menu | visible panel: Overview: 12 lessons, 3 hours.
+--- after a second Tab (focus enters the tab list) ---
+selected tab: Overview | focused: Overview | visible panel: Overview: 12 lessons, 3 hours.
+--- after ArrowRight ---
+selected tab: Lessons | focused: Lessons | visible panel: Lessons: start with What React Is.
+--- after End ---
+selected tab: Reviews | focused: Reviews | visible panel: Reviews: 4.8 out of 5.
+--- after ArrowRight ---
+selected tab: Overview | focused: Overview | visible panel: Overview: 12 lessons, 3 hours.
+--- after Home ---
+selected tab: Overview | focused: Overview | visible panel: Overview: 12 lessons, 3 hours.
+--- after ArrowLeft ---
+selected tab: Reviews | focused: Reviews | visible panel: Reviews: 4.8 out of 5.
+--- tab stops in the list ---
+1

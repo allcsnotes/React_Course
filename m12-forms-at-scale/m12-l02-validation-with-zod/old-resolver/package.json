@@ -1,0 +1,10 @@
+{
+  "name": "old",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@hookform/resolvers": "3.10.0",
+    "react-hook-form": "7.91.0",
+    "zod": "4.6.7"
+  }
+}

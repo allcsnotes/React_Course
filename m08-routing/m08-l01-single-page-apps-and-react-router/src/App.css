@@ -1,0 +1,15 @@
+header { display: flex; align-items: center; gap: 12px; height: 38px; padding: 0 20px;
+  background: #fff; border-bottom: 1px solid #dde2ea; }
+.logo { margin-right: auto; font-size: 20px; font-weight: 800; color: #1a5fd0; }
+.saved { font-size: 17px; font-weight: 700; }
+header button { height: 26px; padding: 0 12px; font-size: 17px; font-weight: 700;
+  border: 0; border-radius: 8px; background: #1a5fd0; color: #fff; cursor: pointer; }
+.page { width: 600px; margin: 14px auto 0; padding: 14px 22px 18px; background: #fff;
+  border: 1px solid #dde2ea; border-radius: 14px; }
+header a { font-size: 17px; font-weight: 700; color: #1a5fd0; }
+.page h1 { font-size: 26px; margin-bottom: 6px; }
+.page p { font-size: 18px; color: #4a5160; margin-bottom: 8px; }
+.page ul { list-style: none; padding: 0; }
+.page li { display: flex; justify-content: space-between; padding: 6px 0;
+  font-size: 19px; font-weight: 600; border-bottom: 1px solid #eef0f4; }
+.page a { display: inline-block; margin-top: 10px; font-size: 19px; font-weight: 700; color: #1a5fd0; }

@@ -1,0 +1,38 @@
+body { margin: 0; font: 16px/1.35 system-ui, sans-serif; color: #1c2430; background: #f3f5f9; }
+.top { display: flex; justify-content: space-between; align-items: center; padding: 10px 22px; background: #fff; border-bottom: 1px solid #d9deea; font-size: 16px; font-weight: 600; }
+.top .who { color: #5b6678; font-weight: 500; }
+main { padding: 12px 22px 70px; }
+h1 { margin: 0 0 8px; font-size: 24px; }
+h2 { margin: 12px 0 6px; font-size: 18px; }
+form { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 14px; align-items: start; }
+.field { display: flex; flex-direction: column; gap: 3px; font-size: 14px; font-weight: 600; color: #4a5568; }
+.field.wide { grid-column: 1 / -1; }
+input, textarea, select { font: 500 16px system-ui, sans-serif; padding: 6px 10px; border: 1.5px solid #c5ccdb; border-radius: 8px; background: #fff; color: #1c2430; box-sizing: border-box; width: 100%; }
+input:focus, textarea:focus, select:focus { outline: 2px solid #1a7cff; border-color: #1a7cff; }
+.err { color: #b3261e; font-size: 14px; font-style: normal; font-weight: 600; }
+button { font: 600 15px system-ui, sans-serif; padding: 5px 12px; border-radius: 8px; border: 1px solid #1a7cff; background: #1a7cff; color: #fff; cursor: pointer; }
+button:disabled { opacity: .45; cursor: default; }
+.bar { position: fixed; left: 0; right: 0; bottom: 0; display: flex; justify-content: flex-end; align-items: center; gap: 12px; padding: 10px 22px; background: #fff; border-top: 1px solid #d9deea; }
+.chip { padding: 2px 10px; border-radius: 999px; background: #fff3d6; color: #8a5a00; font-size: 14px; font-weight: 600; }
+.chip.ok { background: #dff3e6; color: #1f7a45; }
+.note { margin: 0; padding: 20px 4px; font-size: 18px; }
+.bad { margin: 5px 0; padding: 6px 12px; border: 2px solid #e0a5a0; border-radius: 12px; background: #fdecea; color: #b3261e; font-size: 16px; }
+.lessons { list-style: none; margin: 0; padding: 0; }
+.lessons li { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-bottom: 5px; }
+.lessons .num { width: 22px; font-weight: 700; color: #5b6678; }
+.lessons .grow { flex: 1; width: auto; }
+.lessons .mins { width: 72px; flex: none; }
+.lessons li button { padding: 4px 9px; background: #fff; color: #1a5fd0; }
+.lessons li .err { flex-basis: 100%; padding-left: 28px; }
+label.field:nth-of-type(-n+2) { grid-column: 1 / -1; }
+form > h2, form > .lessons, form > .err, form > .thumb, form > .add, form > .bad { grid-column: 1 / -1; }
+.thumb { display: flex; gap: 14px; align-items: center; padding: 8px 0 0; }
+.thumb .pic { width: 150px; height: 84px; border-radius: 10px; border: 2px dashed #c5ccdb; background: #e9edf5; display: flex; align-items: center; justify-content: center; color: #5b6678; font-size: 13px; font-weight: 600; overflow: hidden; flex: none; text-align: center; }
+.thumb .pic img { width: 100%; height: 100%; object-fit: cover; }
+.thumb .side { display: flex; flex-direction: column; gap: 6px; align-items: flex-start; flex: 1; }
+.thumb .side b { font-size: 14px; color: #4a5568; }
+.btn { display: inline-block; padding: 5px 12px; border-radius: 8px; border: 1px solid #1a7cff; background: #fff; color: #1a5fd0; font-weight: 600; font-size: 15px; cursor: pointer; }
+.prog { position: relative; width: 100%; height: 22px; border-radius: 11px; background: #dfe5f1; overflow: hidden; }
+.prog div { height: 100%; background: #1a7cff; transition: width .15s; }
+.prog span { position: absolute; inset: 0; text-align: center; font-size: 14px; font-weight: 700; line-height: 22px; color: #0b2a5c; }
+.add { justify-self: start; }
